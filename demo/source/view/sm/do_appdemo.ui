@@ -1,0 +1,117 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "width": "700",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_33",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_App",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "21",
+                        "width": "150",
+                        "height": "54",
+                        "type": "do_ALayout"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_44",
+                "y": "100",
+                "width": "700",
+                "height": "380",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_55",
+                        "x": "25",
+                        "y": "20",
+                        "width": "240",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "closePage"
+                    },
+                    {
+                        "id": "do_closePage",
+                        "x": "10",
+                        "y": "90",
+                        "width": "680",
+                        "height": "60",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "关闭新的页面"
+                    },
+                    {
+                        "id": "do_alayout_66",
+                        "y": "174",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_ALayout"
+                    },
+                    {
+                        "id": "do_alayout_77",
+                        "y": "246",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_ALayout"
+                    },
+                    {
+                        "id": "do_textfield_data",
+                        "x": "25",
+                        "y": "175",
+                        "width": "600",
+                        "height": "70",
+                        "type": "do_TextField",
+                        "fontColor": "B6B6B6FF",
+                        "fontSize": "25",
+                        "hint": "请输入传到上一层页面的数据"
+                    },
+                    {
+                        "id": "do_label_data",
+                        "x": "25",
+                        "y": "285",
+                        "width": "600",
+                        "height": "70",
+                        "type": "do_Label",
+                        "fontColor": "424242FF",
+                        "fontSize": "25"
+                    },
+                    {
+                        "id": "do_alayout_8",
+                        "y": "375",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_ALayout"
+                    }
+                ]
+            }
+        ]
+    }
+}

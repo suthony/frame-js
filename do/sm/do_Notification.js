@@ -1,0 +1,1 @@
+function do_Notification(){this.type="do_Notification";SM.call(this);this.alert=alert;this.confirm=confirm;this.toast=toast;function alert(text){window.alert(text)}function confirm(text){return window.confirm(text)}function toast(text){window.alert(text)}}(function(){var Super=function(){};Super.prototype=SM.prototype;do_Notification.prototype=new Super})();

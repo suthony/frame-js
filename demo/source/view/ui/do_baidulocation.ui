@@ -1,0 +1,328 @@
+{
+    "RootView":{
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "width": "700",
+                "height": "100",
+                "bgColor": "EA3B40FF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_ImageView",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "y": "1000",
+                "width": "700",
+                "height": "180",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "x": "20",
+                        "width": "660",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "30",
+                        "text": "支持网络图片的本地cache的imageview"
+                    },
+                    {
+                        "x": "20",
+                        "y": "65",
+                        "width": "300",
+                        "height": "110",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "source": "http://img2.3lian.com/img2009/01/12/09c.jpg568fd629ae0799b2.jpg"
+                    },
+                    {
+                        "id": "do_label_5",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_7",
+                        "x": "20",
+                        "y": "60",
+                        "width": "680",
+                        "height": "1",
+                        "bgColor": "DFDFDFFF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_6",
+                        "y": "178",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_4",
+                "y": "820",
+                "width": "700",
+                "height": "180",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_3",
+                        "x": "20",
+                        "width": "660",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "30",
+                        "text": "可点击的imageview"
+                    },
+                    {
+                        "id": "img_touch",
+                        "x": "20",
+                        "y": "65",
+                        "width": "300",
+                        "height": "110",
+                        "type": "do_ImageView",
+                        "enabled": "true",
+                        "scale": "center",
+                        "source": "source://image/deviceone.png"
+                    },
+                    {
+                        "id": "do_label_10",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_6",
+                        "x": "20",
+                        "y": "60",
+                        "width": "680",
+                        "height": "1",
+                        "bgColor": "DFDFDFFF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_3",
+                "y": "100",
+                "width": "700",
+                "height": "180",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_2",
+                        "x": "20",
+                        "width": "660",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "33",
+                        "text": "圆角的imageview"
+                    },
+                    {
+                        "id": "do_imageview_1",
+                        "x": "20",
+                        "y": "65",
+                        "width": "300",
+                        "height": "110",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "radius": "20",
+                        "source": "source://image/p/4.jpg"
+                    },
+                    {
+                        "id": "do_label_8",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_5",
+                        "x": "20",
+                        "y": "60",
+                        "width": "680",
+                        "height": "1",
+                        "bgColor": "DFDFDFFF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_5",
+                "y": "280",
+                "width": "700",
+                "height": "180",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_4",
+                        "x": "20",
+                        "width": "660",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "30",
+                        "text": "图片拉伸充满的的imageview"
+                    },
+                    {
+                        "id": "do_imageview_2",
+                        "x": "20",
+                        "y": "65",
+                        "width": "300",
+                        "height": "110",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "radius": "20",
+                        "source": "source://image/deviceone.png"
+                    },
+                    {
+                        "id": "do_label_10",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_6",
+                        "x": "20",
+                        "y": "60",
+                        "width": "680",
+                        "height": "1",
+                        "bgColor": "DFDFDFFF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_3",
+                "y": "460",
+                "width": "700",
+                "height": "180",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_2",
+                        "x": "20",
+                        "width": "660",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "30",
+                        "text": "图片是原图大小的imageview"
+                    },
+                    {
+                        "id": "do_imageview_1",
+                        "x": "20",
+                        "y": "65",
+                        "width": "300",
+                        "height": "110",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "radius": "20",
+                        "scale": "center",
+                        "source": "source://image/deviceone.png"
+                    },
+                    {
+                        "id": "do_label_8",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_5",
+                        "x": "20",
+                        "y": "60",
+                        "width": "680",
+                        "height": "1",
+                        "bgColor": "DFDFDFFF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_5",
+                "y": "640",
+                "width": "700",
+                "height": "180",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_4",
+                        "x": "20",
+                        "width": "660",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "30",
+                        "text": "图片是缩放宽和高的imageview"
+                    },
+                    {
+                        "id": "do_imageview_2",
+                        "x": "20",
+                        "y": "65",
+                        "width": "300",
+                        "height": "110",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "radius": "20",
+                        "scale": "fillxory",
+                        "source": "source://image/deviceone.png"
+                    },
+                    {
+                        "id": "do_label_10",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_6",
+                        "x": "20",
+                        "y": "60",
+                        "width": "680",
+                        "height": "1",
+                        "bgColor": "DFDFDFFF",
+                        "type": "do_Label"
+                    }
+                ]
+            }
+        ]
+    }
+}

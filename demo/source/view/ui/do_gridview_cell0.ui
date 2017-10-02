@@ -1,0 +1,20 @@
+{
+    "RootView": {
+         "id": "root",
+        "width": "220",
+        "height": "150",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_imageview_1",
+                "y": "10",
+                "width": "220",
+                "height": "140",
+                "type": "do_ImageView",
+                "cacheType": "always",
+                "enabled": "true",
+                "source": "source://image/img@add.png"
+            }
+        ]
+    }
+}

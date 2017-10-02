@@ -1,0 +1,24 @@
+{
+    "RootView":{
+        "width":"700",
+        "height":"100",
+        "type":"do_ALayout",
+        "views":[
+            {
+                "x":"173",
+                "y":"10",
+                "width":"80",
+                "type":"do_ProgressBar"
+            },
+            {
+                "x":"256",
+                "y":"31",
+                "width":"262",
+                "height":"42",
+                "type":"do_Label",
+                "fontSize":"17",
+                "text":"数据加载中..."
+            }
+        ]
+    }
+}

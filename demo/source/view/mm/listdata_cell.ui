@@ -1,0 +1,27 @@
+{
+    "RootView": {
+        "id": "root",
+        "width": "700",
+        "height": "100",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_linearlayout_1",
+                "x": "20",
+                "y": "10",
+                "width": "660",
+                "type": "do_LinearLayout",
+                "views": [
+                    {
+                        "id": "lb_text",
+                        "width": "660",
+                        "height": "-1",
+                        "type": "do_Label",
+                        "fontSize": "25"
+                    }
+                ]
+            }
+        ]
+    }
+}

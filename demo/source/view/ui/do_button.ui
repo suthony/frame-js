@@ -1,0 +1,419 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "x": "-1",
+                "y": "-1",
+                "width": "711",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_Button",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "y": "100",
+                "width": "700",
+                "height": "300",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "x": "50",
+                        "y": "30",
+                        "width": "250",
+                        "height": "40",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "文本按钮"
+                    },
+                    {
+                        "y": "5",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "x": "20",
+                        "y": "100",
+                        "width": "680",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_2",
+                        "y": "300",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "x": "450",
+                        "y": "20",
+                        "width": "170",
+                        "height": "60",
+                        "bgColor": "0D79FFFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "radius": "8",
+                        "text": "按钮"
+                    },
+                    {
+                        "id": "do_label_3",
+                        "y": "1",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_4",
+                        "x": "50",
+                        "y": "130",
+                        "width": "250",
+                        "height": "40",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "字体是斜体的按钮"
+                    },
+                    {
+                        "id": "do_button_3",
+                        "x": "450",
+                        "y": "120",
+                        "width": "170",
+                        "height": "60",
+                        "bgColor": "0D79FFFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "fontStyle": "italic",
+                        "radius": "8",
+                        "text": "按钮"
+                    },
+                    {
+                        "id": "do_label_5",
+                        "x": "20",
+                        "y": "200",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_6",
+                        "x": "50",
+                        "y": "230",
+                        "width": "250",
+                        "height": "40",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "字体带下滑线的按钮"
+                    },
+                    {
+                        "id": "do_button_4",
+                        "x": "450",
+                        "y": "220",
+                        "width": "170",
+                        "height": "60",
+                        "bgColor": "0D79FFFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "fontStyle": "underline",
+                        "radius": "8",
+                        "text": "按钮"
+                    },
+                    {
+                        "id": "do_label_7",
+                        "y": "299",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_3",
+                "y": "430",
+                "width": "700",
+                "height": "200",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_8",
+                        "x": "50",
+                        "y": "30",
+                        "width": "250",
+                        "height": "40",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "圆角按钮"
+                    },
+                    {
+                        "id": "do_label_9",
+                        "x": "20",
+                        "y": "100",
+                        "width": "680",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_10",
+                        "y": "300",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_button_7",
+                        "x": "450",
+                        "y": "20",
+                        "width": "170",
+                        "height": "60",
+                        "bgColor": "0D79FFFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "radius": "20",
+                        "text": "按钮"
+                    },
+                    {
+                        "id": "do_label_11",
+                        "y": "1",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_12",
+                        "x": "50",
+                        "y": "130",
+                        "width": "250",
+                        "height": "40",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "图形按钮"
+                    },
+                    {
+                        "id": "do_button_8",
+                        "x": "450",
+                        "y": "120",
+                        "width": "170",
+                        "height": "60",
+                        "bgColor": "0D79FFFF",
+                        "type": "do_Button",
+                        "bgImage": "source://image/icon.png",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "fontStyle": "italic",
+                        "radius": "8",
+                        "text": "按钮"
+                    },
+                    {
+                        "id": "do_label_13",
+                        "y": "199",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_4",
+                "y": "660",
+                "width": "700",
+                "height": "200",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_14",
+                        "x": "50",
+                        "y": "30",
+                        "width": "250",
+                        "height": "40",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "点击触发事件按钮"
+                    },
+                    {
+                        "id": "do_label_15",
+                        "x": "20",
+                        "y": "100",
+                        "width": "680",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_16",
+                        "y": "300",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "bn_1",
+                        "x": "450",
+                        "y": "20",
+                        "width": "170",
+                        "height": "60",
+                        "bgColor": "0D79FFFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "radius": "8",
+                        "text": "按钮"
+                    },
+                    {
+                        "id": "do_label_17",
+                        "y": "1",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_18",
+                        "x": "50",
+                        "y": "130",
+                        "width": "250",
+                        "height": "40",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "离开时触发事件按钮"
+                    },
+                    {
+                        "id": "bn_2",
+                        "x": "450",
+                        "y": "120",
+                        "width": "170",
+                        "height": "60",
+                        "bgColor": "0D79FFFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "radius": "8",
+                        "text": "按钮"
+                    },
+                    {
+                        "id": "do_label_19",
+                        "y": "199",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_5",
+                "y": "890",
+                "width": "700",
+                "height": "150",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_20",
+                        "x": "50",
+                        "y": "50",
+                        "width": "250",
+                        "height": "50",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "带提示的按钮"
+                    },
+                    {
+                        "id": "do_label_21",
+                        "y": "149",
+                        "width": "680",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_button_5",
+                        "x": "450",
+                        "y": "50",
+                        "width": "170",
+                        "height": "60",
+                        "bgColor": "0D79FFFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "radius": "8",
+                        "text": "按钮"
+                    },
+                    {
+                        "id": "do_label_22",
+                        "y": "1",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_button_6",
+                        "x": "600",
+                        "y": "40",
+                        "width": "40",
+                        "height": "40",
+                        "bgColor": "FF0000FF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "14",
+                        "fontStyle": "bold",
+                        "radius": "20",
+                        "text": "1"
+                    }
+                ]
+            }
+        ]
+    }
+}

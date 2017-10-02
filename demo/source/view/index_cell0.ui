@@ -1,0 +1,47 @@
+{
+    "RootView": {
+        "id": "root",
+        "width": "700",
+        "height": "140",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "IMG",
+                "x": "20",
+                "y": "22",
+                "width": "75",
+                "height": "75",
+                "type": "do_ImageView"
+            },
+            {
+                "id": "NAME",
+                "x": "135",
+                "y": "17",
+                "width": "308",
+                "height": "42",
+                "type": "do_Label",
+                "fontSize": "30"
+            },
+            {
+                "id": "MSG",
+                "x": "134",
+                "y": "66",
+                "width": "554",
+                "height": "51",
+                "type": "do_Label",
+                "fontSize": "24"
+            },
+            {
+                "id": "VERSION",
+                "x": "444",
+                "y": "18",
+                "width": "229",
+                "height": "35",
+                "type": "do_Label",
+                "fontColor": "666666FF",
+                "fontSize": "24",
+                "textAlign": "right"
+            }
+        ]
+    }
+}

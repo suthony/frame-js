@@ -1,0 +1,132 @@
+﻿{
+  "ID": "do_Album",
+  "IsContainer": "0",
+  "Type": "SM",
+  "Name": "相册",
+  "Version": "Internal",
+  "Description": "可以通过相册选择图片，且可以指定保存过后图片的质量，宽高；也可保存一张图片到相册",
+  "Icon": "https://do-store.oss-cn-beijing.aliyuncs.com/D/20160121/do_Album/相册.jpg",
+  "IOS": {
+    "Support": 1,
+    "MinVersion": "7"
+  },
+  "Android": {
+    "Support": 1,
+    "MinVersion": "4.0"
+  },
+  "Windows": {
+    "Support": 1,
+    "MinVersion": "10"
+  },
+  "WindowsPhone": {
+    "Support": 1,
+    "MinVersion": "10"
+  },
+  "Html": {
+    "Support": 1,
+    "MinVersion": "5.0"
+  },
+  "Properties": [],
+  "Events": [],
+  "syncMethodes": [],
+  "asyncMethodes": [
+    {
+      "ID": "save",
+      "Name": "保存图片到相册",
+      "Description": "将一个图片文件保存到系统相册；width和height均为-1时保持图片的原始宽高不变, 以quality压缩；width或height有任一为-1，保持图片的原始宽高比不变 ,以不为-1的那个值做为基准, 保持原图的宽高比, 并以quality压缩",
+      "ReturnType": "Bool",
+      "ReturnDesc": "保存成功返回true，保存失败返回false",
+      "Paras": [
+        {
+          "ID": "path",
+          "Name": "目标路径",
+          "Type": "String",
+          "Required": 1,
+          "DefaultValue": "",
+          "Description": "要保存的图片文件路径,支持数据区data://"
+        },
+        {
+          "ID": "name",
+          "Name": "图片名称",
+          "Type": "String",
+          "Required": 0,
+          "DefaultValue": "default.jpg",
+          "Description": "保存到相册后的图片的名称，不设置就是'default.jpg'"
+        },
+        {
+          "ID": "width",
+          "Name": "宽度",
+          "Type": "Number",
+          "Required": 0,
+          "DefaultValue": "",
+          "Description": "选择后的图片的宽度，不填默认图片宽度"
+        },
+        {
+          "ID": "height",
+          "Name": "高度",
+          "Type": "Number",
+          "Required": 0,
+          "DefaultValue": "",
+          "Description": "选择后的图片的高度，不填默认图片高度"
+        },
+        {
+          "ID": "quality",
+          "Name": "清晰度",
+          "Type": "Number",
+          "Required": 0,
+          "DefaultValue": "",
+          "Description": "清晰度1-100,缺省是100表示原始的图片质量"
+        }
+      ]
+    },
+    {
+      "ID": "select",
+      "Name": "从相册选择照片",
+      "Description": "可以根据用户传递的参数单选一张图片或者复选多张图片，目前最多支持一次多选9张；选定的图片缺省会另存到data://temp/do_Album/目录下，然后返回给用户这些图片保存后的url；width和height均为-1时保持图片的原始宽高不变, 以quality压缩；width或height有任一为小于等于0，保持图片的原始宽高比不变 ,以不小于等于0的那个值做为基准, 保持原图的宽高比，并以quality压缩；若不选择照片则不显示确定按钮，显示取消按钮、预览按钮变灰，点击没反应且回调为空",
+      "ReturnType": "Node",
+      "ReturnDesc": "['file1','file2'...]",
+      "Paras": [
+        {
+          "ID": "maxCount",
+          "Name": "总共最多选几张",
+          "Type": "Number",
+          "Required": 0,
+          "DefaultValue": "9",
+          "Description": "多选时可设置最多选几张"
+        },
+        {
+          "ID": "width",
+          "Name": "宽度",
+          "Type": "Number",
+          "Required": 0,
+          "DefaultValue": "",
+          "Description": "选择后的图片的宽度，不填默认图片宽度"
+        },
+        {
+          "ID": "height",
+          "Name": "高度",
+          "Type": "Number",
+          "Required": 0,
+          "DefaultValue": "",
+          "Description": "选择后的图片的高度，不填默认图片高度"
+        },
+        {
+          "ID": "quality",
+          "Name": "清晰度",
+          "Type": "Number",
+          "Required": 0,
+          "DefaultValue": "",
+          "Description": "清晰度1-100,缺省是100表示原始的图片质量"
+        },
+        {
+          "ID": "iscut",
+          "Name": "是否启动中间取景界面",
+          "Type": "Bool",
+          "Required": 0,
+          "DefaultValue": "false",
+          "Description": "只有在maxCount设置为1时该参数设置成true才有效；如果这个值为true的话，照片选择结束后会出现一个中间的取景界面，有一个矩形框让用户对照片进行裁剪；windows不支持"
+        }
+      ]
+    }
+  ]
+}

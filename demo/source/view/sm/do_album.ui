@@ -1,0 +1,113 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "width": "700",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_Album",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "y": "350",
+                "width": "700",
+                "height": "850",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "gv_img",
+                        "x": "10",
+                        "y": "35",
+                        "width": "680",
+                        "height": "800",
+                        "bgColor": "FFFFFFFF",
+                        "type": "do_GridView",
+                        "hSpacing": "10",
+                        "numColumns": "3",
+                        "templates": "source://view/sm/album_cell.ui"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_3",
+                "y": "100",
+                "width": "700",
+                "height": "283",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_2",
+                        "y": "10",
+                        "width": "700",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "从媒体数据库选图片"
+                    },
+                    {
+                        "id": "action_0",
+                        "x": "10",
+                        "y": "102",
+                        "width": "680",
+                        "height": "60",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "选择一张图片"
+                    },
+                    {
+                        "id": "action_1",
+                        "x": "10",
+                        "y": "200",
+                        "width": "680",
+                        "height": "60",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "选择多张图片"
+                    }
+                ]
+            }
+        ]
+    }
+}

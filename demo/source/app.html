@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+    <title>首页</title>
+    <script type="text/javascript">
+    </script>
+    <style>
+        *{padding:0;margin:0;border:0}@keyframes slide_r2l{from{transform:translate(100%,0%)}to{transform:translate(0%,0%)}}@keyframes slide_l2r{from{transform:translate(0,0%)}to{transform:translate(100%,0%)}}
+    </style>
+</head>
+<body id="body">
+<script>
+    var str=window.location.href;var pattern=/(.*)\/([^\/]+)\/source\/app\.html/g;var result=pattern.exec(str);var rootUrl=result[1];var appName=result[2];window.appName=appName;window.rootUrl=rootUrl;window.appPath=rootUrl+"/"+appName+"/";window.doPath=rootUrl+"/do/";var body=document.getElementById("body");body.style.width="100%";body.style.height="100%";localStorage.setItem("rootUrl",rootUrl);var rootJs=document.createElement("script");rootJs.type="text/javascript";rootJs.src=rootUrl+"/do/root.js";body.appendChild(rootJs);
+</script>
+</body>
+</html>

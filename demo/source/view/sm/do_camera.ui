@@ -1,0 +1,158 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "x": "-1",
+                "y": "-1",
+                "width": "711",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_Camera",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "action_m",
+                "x": "2",
+                "y": "105",
+                "width": "698",
+                "height": "260",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "action_1",
+                        "x": "10",
+                        "y": "60",
+                        "width": "680",
+                        "height": "40",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "NoCut"
+                    },
+                    {
+                        "id": "action_0",
+                        "x": "10",
+                        "y": "190",
+                        "width": "680",
+                        "height": "40",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "Cut"
+                    },
+                    {
+                        "id": "do_label_2",
+                        "x": "20",
+                        "y": "10",
+                        "width": "200",
+                        "height": "35",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "无剪裁拍照"
+                    },
+                    {
+                        "id": "do_label_3",
+                        "y": "130",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_4",
+                        "x": "20",
+                        "y": "140",
+                        "width": "200",
+                        "height": "35",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "可剪裁拍照"
+                    },
+                    {
+                        "id": "do_label_5",
+                        "y": "1",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_6",
+                        "y": "259",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "x": "2",
+                "y": "430",
+                "width": "696",
+                "height": "625",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "img0",
+                        "x": "100",
+                        "y": "70",
+                        "width": "500",
+                        "height": "500",
+                        "type": "do_ImageView"
+                    },
+                    {
+                        "id": "label0",
+                        "x": "60",
+                        "y": "233",
+                        "width": "605",
+                        "height": "322",
+                        "visible": "false",
+                        "type": "do_Label"
+                    }
+                ]
+            }
+        ]
+    }
+}

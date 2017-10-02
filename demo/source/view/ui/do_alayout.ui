@@ -1,0 +1,270 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "x": "-1",
+                "y": "-1",
+                "width": "711",
+                "height": "100",
+                "bgColor": "EA3B40FF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_ALayout",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "y": "100",
+                "width": "700",
+                "height": "200",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "x": "20",
+                        "width": "660",
+                        "height": "40",
+                        "type": "do_Label",
+                        "fontSize": "30",
+                        "text": "可以点击的Alayout"
+                    },
+                    {
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "x": "20",
+                        "y": "45",
+                        "width": "680",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_al",
+                        "x": "20",
+                        "y": "46",
+                        "width": "680",
+                        "height": "150",
+                        "bgColor": "C0C0C0FF",
+                        "type": "do_ALayout",
+                        "bgImage": "source://image/p/4.jpg"
+                    },
+                    {
+                        "id": "do_label_2",
+                        "y": "199",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_4",
+                "y": "300",
+                "width": "700",
+                "height": "200",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_3",
+                        "x": "20",
+                        "width": "660",
+                        "height": "40",
+                        "type": "do_Label",
+                        "fontSize": "30",
+                        "text": "带背景图片的Alayout"
+                    },
+                    {
+                        "id": "do_label_4",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_5",
+                        "x": "20",
+                        "y": "45",
+                        "width": "680",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_alayout_6",
+                        "x": "20",
+                        "y": "46",
+                        "width": "680",
+                        "height": "150",
+                        "bgColor": "C0C0C0FF",
+                        "type": "do_ALayout",
+                        "bgImage": "source://image/p/4.jpg"
+                    },
+                    {
+                        "id": "do_label_6",
+                        "y": "199",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_3",
+                "y": "500",
+                "width": "700",
+                "height": "200",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_7",
+                        "x": "20",
+                        "width": "660",
+                        "height": "40",
+                        "type": "do_Label",
+                        "fontSize": "30",
+                        "text": "图片填充方式为拉伸铺满的Alayout"
+                    },
+                    {
+                        "id": "do_label_8",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_9",
+                        "x": "20",
+                        "y": "45",
+                        "width": "680",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_alayout_7",
+                        "x": "20",
+                        "y": "46",
+                        "width": "680",
+                        "height": "150",
+                        "bgColor": "C0C0C0FF",
+                        "type": "do_ALayout",
+                        "bgImage": "source://image/p/4.jpg"
+                    },
+                    {
+                        "id": "do_label_10",
+                        "y": "199",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_5",
+                "y": "700",
+                "width": "700",
+                "height": "200",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_11",
+                        "x": "20",
+                        "width": "660",
+                        "height": "40",
+                        "type": "do_Label",
+                        "fontSize": "30",
+                        "text": "对齐方式为的垂直居中、水平居右的Alayout"
+                    },
+                    {
+                        "id": "do_label_12",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_13",
+                        "x": "20",
+                        "y": "45",
+                        "width": "680",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_alayout_8",
+                        "x": "20",
+                        "y": "46",
+                        "width": "680",
+                        "height": "150",
+                        "bgColor": "C0C0C0FF",
+                        "type": "do_ALayout",
+                        "layoutAlign": "MiddleCenter",
+                        "views": [
+                            {
+                                "x": "10",
+                                "y": "10",
+                                "width": "660",
+                                "height": "130",
+                                "type": "do_ALayout",
+                                "bgImage": "source://image/p/4.jpg",
+                                "isStretch": "false",
+                                "layoutAlign": "MiddleRight"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "do_label_14",
+                        "y": "199",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            }
+        ]
+    }
+}

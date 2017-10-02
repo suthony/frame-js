@@ -1,0 +1,140 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "width": "700",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "text": "do_WebView",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "textAlign": "center",
+                        "maxLines": "1"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "wv_webview",
+                "y": "180",
+                "width": "700",
+                "height": "1065",
+                "type": "do_WebView",
+                "url": "http://www.baidu.com"
+            },
+            {
+                "y": "100",
+                "width": "700",
+                "bgColor": "FFFFFFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "tf_url",
+                        "x": "53",
+                        "y": "20",
+                        "width": "380",
+                        "height": "40",
+                        "bgColor": "FFFFFFFF",
+                        "type": "do_TextField",
+                        "text": "http://www.baidu.com",
+                        "fontSize": "25"
+                    },
+                    {
+                        "id": "action_go",
+                        "x": "460",
+                        "y": "13",
+                        "width": "64",
+                        "height": "63",
+                        "bgColor": "FFFFFF00",
+                        "type": "do_ImageView",
+                        "enabled": "true",
+                        "source": "source://image/webview/img_main_right_menuitem_scan_media.png"
+                    },
+                    {
+                        "id": "action_refresh",
+                        "x": "570",
+                        "y": "22",
+                        "width": "50",
+                        "height": "50",
+                        "bgColor": "FFFFFF00",
+                        "type": "do_ImageView",
+                        "enabled": "true",
+                        "source": "source://image/webview/refresh.png",
+                        "scale": "fillxory"
+                    },
+                    {
+                        "id": "action_goback",
+                        "x": "2",
+                        "y": "15",
+                        "width": "49",
+                        "height": "53",
+                        "bgColor": "FFFFFFFF",
+                        "type": "do_ImageView",
+                        "enabled": "true",
+                        "source": "source://image/webview/img_right_menu_arrow_down.png"
+                    },
+                    {
+                        "id": "action_forward",
+                        "x": "653",
+                        "y": "16",
+                        "width": "55",
+                        "height": "55",
+                        "bgColor": "FFFFFF00",
+                        "type": "do_ImageView",
+                        "enabled": "true",
+                        "source": "source://image/webview/img_right_menu_arrow_up.png"
+                    },
+                    {
+                        "id": "do_alayout_3",
+                        "y": "2",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_ALayout"
+                    },
+                    {
+                        "id": "do_alayout_4",
+                        "y": "79",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_ALayout"
+                    }
+                ]
+            }
+        ]
+    }
+}

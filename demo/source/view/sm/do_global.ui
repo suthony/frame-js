@@ -1,0 +1,375 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "x": "-1",
+                "y": "-1",
+                "width": "711",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_33",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_Global",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do_scrollview_1",
+                "y": "100",
+                "width": "700",
+                "height": "1145",
+                "type": "do_ScrollView",
+                "views": [
+                    {
+                        "id": "do_alayout_44",
+                        "width": "700",
+                        "height": "1400",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_alayout_55",
+                                "width": "700",
+                                "height": "254",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_66",
+                                        "x": "25",
+                                        "y": "20",
+                                        "width": "240",
+                                        "height": "60",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "getTime"
+                                    },
+                                    {
+                                        "id": "bn_getTime",
+                                        "x": "10",
+                                        "y": "90",
+                                        "width": "680",
+                                        "height": "60",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "25",
+                                        "text": "获取当前设备时间"
+                                    },
+                                    {
+                                        "id": "do_label_time",
+                                        "x": "25",
+                                        "y": "175",
+                                        "width": "600",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25"
+                                    },
+                                    {
+                                        "id": "do_alayout_77",
+                                        "y": "174",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_alayout_88",
+                                        "y": "246",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_99",
+                                "y": "254",
+                                "width": "700",
+                                "height": "254",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_10",
+                                        "x": "25",
+                                        "y": "20",
+                                        "width": "240",
+                                        "height": "60",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "getWakeup"
+                                    },
+                                    {
+                                        "id": "bn_getWakeupID",
+                                        "x": "10",
+                                        "y": "90",
+                                        "width": "680",
+                                        "height": "60",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "25",
+                                        "text": "获取应用唤醒ID"
+                                    },
+                                    {
+                                        "id": "do_label_wakeid",
+                                        "x": "25",
+                                        "y": "175",
+                                        "width": "600",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25"
+                                    },
+                                    {
+                                        "id": "do_alayout_11",
+                                        "y": "174",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_alayout_12",
+                                        "y": "246",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_13",
+                                "y": "508",
+                                "width": "700",
+                                "height": "254",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_14",
+                                        "x": "25",
+                                        "y": "20",
+                                        "width": "240",
+                                        "height": "60",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "getVersion"
+                                    },
+                                    {
+                                        "id": "bn_getVersion",
+                                        "x": "10",
+                                        "y": "90",
+                                        "width": "680",
+                                        "height": "60",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "25",
+                                        "text": "获取应用安装包的版本号"
+                                    },
+                                    {
+                                        "id": "do_label_version",
+                                        "x": "25",
+                                        "y": "175",
+                                        "width": "600",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25"
+                                    },
+                                    {
+                                        "id": "do_alayout_15",
+                                        "y": "174",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_alayout_16",
+                                        "y": "246",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_17",
+                                "y": "762",
+                                "width": "700",
+                                "height": "324",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_18",
+                                        "x": "25",
+                                        "y": "20",
+                                        "width": "240",
+                                        "height": "60",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "setMemory"
+                                    },
+                                    {
+                                        "id": "bn_setMemory",
+                                        "x": "10",
+                                        "y": "90",
+                                        "width": "680",
+                                        "height": "60",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "25",
+                                        "text": "设置全局变量值"
+                                    },
+                                    {
+                                        "id": "do_alayout_19",
+                                        "y": "174",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_alayout_20",
+                                        "y": "246",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_textfield_id",
+                                        "x": "25",
+                                        "y": "175",
+                                        "width": "600",
+                                        "height": "70",
+                                        "type": "do_TextField",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25",
+                                        "hint": "请输入变量名key"
+                                    },
+                                    {
+                                        "id": "do_textfield_value",
+                                        "x": "25",
+                                        "y": "245",
+                                        "width": "600",
+                                        "height": "70",
+                                        "type": "do_TextField",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25",
+                                        "hint": "请输入变量值value"
+                                    },
+                                    {
+                                        "id": "do_alayout_21",
+                                        "y": "317",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_23",
+                                "y": "1086",
+                                "width": "700",
+                                "height": "254",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_24",
+                                        "x": "25",
+                                        "y": "20",
+                                        "width": "240",
+                                        "height": "60",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "getMemory"
+                                    },
+                                    {
+                                        "id": "bn_getMemory",
+                                        "x": "10",
+                                        "y": "90",
+                                        "width": "680",
+                                        "height": "60",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "25",
+                                        "text": "获取全局变量值"
+                                    },
+                                    {
+                                        "id": "do_label_getM",
+                                        "x": "25",
+                                        "y": "175",
+                                        "width": "600",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25"
+                                    },
+                                    {
+                                        "id": "do_alayout_25",
+                                        "y": "174",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_alayout_26",
+                                        "y": "246",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

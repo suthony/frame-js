@@ -1,0 +1,271 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "width": "700",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_ImageView",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "y": "1000",
+                "width": "700",
+                "height": "180",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "x": "20",
+                        "width": "300",
+                        "height": "180",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "网络图片的本地cache的imageview"
+                    },
+                    {
+                        "x": "350",
+                        "y": "10",
+                        "width": "330",
+                        "height": "160",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "source": "http://img2.3lian.com/img2009/01/12/09c.jpg568fd629ae0799b2.jpg"
+                    },
+                    {
+                        "id": "do_label_2",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_3",
+                        "y": "178",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_4",
+                "y": "820",
+                "width": "700",
+                "height": "180",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_4",
+                        "x": "20",
+                        "width": "300",
+                        "height": "180",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "可点击的imageview"
+                    },
+                    {
+                        "id": "img_touch",
+                        "x": "350",
+                        "y": "10",
+                        "width": "330",
+                        "height": "160",
+                        "type": "do_ImageView",
+                        "enabled": "true",
+                        "scale": "center",
+                        "source": "source://image/webview/1.jpg"
+                    },
+                    {
+                        "id": "do_label_5",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_3",
+                "y": "100",
+                "width": "700",
+                "height": "180",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_6",
+                        "x": "20",
+                        "width": "300",
+                        "height": "180",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "圆角的imageview"
+                    },
+                    {
+                        "id": "do_imageview_1",
+                        "x": "350",
+                        "y": "10",
+                        "width": "330",
+                        "height": "160",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "radius": "20",
+                        "source": "source://image/webview/1.jpg"
+                    },
+                    {
+                        "id": "do_label_7",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_5",
+                "y": "280",
+                "width": "700",
+                "height": "180",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_8",
+                        "x": "20",
+                        "width": "300",
+                        "height": "180",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "拉伸充满的imageview"
+                    },
+                    {
+                        "id": "do_imageview_2",
+                        "x": "350",
+                        "y": "10",
+                        "width": "330",
+                        "height": "160",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "source": "source://image/webview/1.jpg"
+                    },
+                    {
+                        "id": "do_label_9",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_6",
+                "y": "460",
+                "width": "700",
+                "height": "180",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_10",
+                        "x": "20",
+                        "width": "300",
+                        "height": "180",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "原图大小的imageview"
+                    },
+                    {
+                        "id": "do_imageview_3",
+                        "x": "350",
+                        "y": "10",
+                        "width": "330",
+                        "height": "160",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "scale": "center",
+                        "source": "source://image/webview/1.jpg"
+                    },
+                    {
+                        "id": "do_label_11",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_7",
+                "y": "640",
+                "width": "700",
+                "height": "180",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_12",
+                        "x": "20",
+                        "width": "300",
+                        "height": "180",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "缩放宽和高的imageview"
+                    },
+                    {
+                        "id": "do_imageview_6",
+                        "x": "350",
+                        "y": "10",
+                        "width": "330",
+                        "height": "160",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "scale": "fillxory",
+                        "source": "source://image/webview/1.jpg"
+                    },
+                    {
+                        "id": "do_label_13",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            }
+        ]
+    }
+}

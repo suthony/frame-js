@@ -1,0 +1,37 @@
+{
+    "RootView": {
+        "width": "700",
+        "height": "350",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "x": "10",
+                "y": "10",
+                "width": "700",
+                "height": "300",
+                "type": "do_ImageView",
+                "source": "source://image/3.png"
+            },
+            {
+                "id": "do_alayout_1",
+                "y": "300",
+                "width": "700",
+                "height": "50",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "width": "700",
+                        "height": "50",
+                        "bgColor": "000000FF",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "20",
+                        "text": "大量高品质的原生组件"
+                    }
+                ]
+            }
+        ]
+    }
+}

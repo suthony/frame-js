@@ -1,0 +1,17 @@
+{
+    "RootView":{
+        "width":"700",
+        "height":"1245",
+        "visible":"false",
+        "type":"do_ALayout",
+        "views":[
+            {
+                "x":"300",
+                "y":"350",
+                "height":"100",
+                "bgColor":"FF80FF00",
+                "type":"do_ProgressBar"
+            }
+        ]
+    }
+}

@@ -1,0 +1,128 @@
+﻿{
+  "ID": "do_SQLite",
+  "IsContainer": "0",
+  "Type": "MM",
+  "Name": "SQLite3数据库",
+  "Version": "Internal",
+  "Description": "提供SQLite3数据库的访问接口",
+  "Icon": "https://deviceone.blob.core.chinacloudapi.cn/store/D/20160121/do_SQLite/sqlite.jpg",
+  "IOS": {
+    "Support": 1,
+    "MinVersion": "7.0"
+  },
+  "Android": {
+    "Support": 1,
+    "MinVersion": "14"
+  },
+  "Windows": {
+    "Support": 1,
+    "MinVersion": "10"
+  },
+  "WindowsPhone": {
+    "Support": 1,
+    "MinVersion": "10"
+  },
+  "Html": {
+    "Support": 1,
+    "MinVersion": "5.0"
+  },
+  "Properties": [],
+  "Events": [],
+  "syncMethodes": [
+    {
+      "ID": "close",
+      "Name": "关闭数据库",
+      "Description": "关闭数据库链接",
+      "ReturnType": "Bool",
+      "ReturnDesc": "",
+      "Paras": []
+    },
+    {
+      "ID": "executeSync",
+      "Name": "同步执行SQL语句",
+      "Description": "用于执行任意的SQL语句",
+      "ReturnType": "Bool",
+      "ReturnDesc": "执行是否成功",
+      "Paras": [
+        {
+          "ID": "sql",
+          "Name": "SQL字符串",
+          "Type": "String",
+          "Required": 1,
+          "DefaultValue": "",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "ID": "open",
+      "Name": "打开数据库",
+      "Description": "打开一个本地数据库链接，只支持data://的路径或者:memory:，其中:memory:表示内存数据库",
+      "ReturnType": "Bool",
+      "ReturnDesc": "",
+      "Paras": [
+        {
+          "ID": "path",
+          "Name": "数据库路径",
+          "Type": "String",
+          "Required": 1,
+          "DefaultValue": "",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "ID": "querySync",
+      "Name": "执行SQL查询语句",
+      "Description": "用于执行查询语句的同步方法；使用需谨慎，若查询的数据较多会导致UI卡顿",
+      "ReturnType": "Node",
+      "ReturnDesc": "返回的每一个元素都是json node，node的每一个节点都是column名比如[ {column1:'value1',clolumn2:'value2'},{column1:'value1',clolumn2:'value2'},...]",
+      "Paras": [
+        {
+          "ID": "sql",
+          "Name": "SQL字符串",
+          "Type": "String",
+          "Required": 1,
+          "DefaultValue": "",
+          "Description": ""
+        }
+      ]
+    }
+  ],
+  "asyncMethodes": [
+    {
+      "ID": "execute",
+      "Name": "异步执行SQL语句",
+      "Description": "用于执行任意的SQL语句",
+      "ReturnType": "Bool",
+      "ReturnDesc": "执行是否成功",
+      "Paras": [
+        {
+          "ID": "sql",
+          "Name": "SQL字符串",
+          "Type": "String",
+          "Required": 1,
+          "DefaultValue": "",
+          "Description": ""
+        }
+      ]
+    },
+    {
+      "ID": "query",
+      "Name": "执行SQL查询语句",
+      "Description": "用于执行查询语句",
+      "ReturnType": "Node",
+      "ReturnDesc": "返回的每一个元素都是json node，node的每一个节点都是column名比如[ {column1:'value1',clolumn2:'value2'},{column1:'value1',clolumn2:'value2'},...]",
+      "Paras": [
+        {
+          "ID": "sql",
+          "Name": "SQL字符串",
+          "Type": "String",
+          "Required": 1,
+          "DefaultValue": "",
+          "Description": ""
+        }
+      ]
+    }
+  ]
+}

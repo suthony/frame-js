@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+    <title>首页</title>
+    <script type="text/javascript">
+    </script>
+    <style id="style">
+        *{font-size:16px;padding:0;margin:0;border:0}@keyframes slide_r2l{from{transform:translate(100%,0%)}to{transform:translate(0%,0%)}}@keyframes slide_l2r{from{transform:translate(-100%,0%)}to{transform:translate(0%,0%)}}@keyframes slide_b2t{from{top:100%}to{top:0}}@keyframes slide_t2b{from{top:-100%}to{top:0}}@keyframes expand_l2r{from{left:0}to{left:100%}}@keyframes expand_t2b{from{left:0}to{left:100%}}@keyframes fadein{from{opacity:0}to{opacity:1}}@keyframes slide_r2l_hide{from{left:0}to{left:-100%}}@keyframes slide_l2r_hide{from{left:0}to{left:100%}}@keyframes slide_b2t_hide{from{top:0}to{top:-100%}}@keyframes slide_t2b_hide{from{top:0}to{top:100%}}@keyframes collapse_r2l_hide{from{left:0}to{left:100%}}@keyframes collapse_b2t_hide{from{left:0}to{left:100%}}@keyframes fadeout_hide{from{opacity:1}to{opacity:0}}
+    </style>
+</head>
+<body id="body" style="overflow: hidden;width:100%;height:100%">
+<script>
+</script>
+<script>
+    document.onload=function(){window.page.fire("loaded")};var screenHeight=document.body.offsetHeight;var userScreenHeight=localStorage.getItem("userScreenHeight");var userScreenWidth=localStorage.getItem("userScreenWidth");function getRealSize(num){var screenWidth=document.body.offsetWidth;return parseInt(num*screenWidth/userScreenWidth)}function getVirtualSize(num){var screenWidth=document.body.offsetWidth;return parseInt(num*userScreenWidth/screenWidth)}$={async:true,get:function(url,func){this.ajax(url,"get","",func)},post:function(url,body,func){this.ajax(url,"post",body,func)},ajax:function(url,method,body,successFunc,failFunc){var xmlhttp=new XMLHttpRequest;xmlhttp.onreadystatechange=function(){if(xmlhttp.readyState===4){var status=xmlhttp.status;if(status===200)successFunc(xmlhttp.responseText);else;}};xmlhttp.open(method,url,this.async);xmlhttp.send(body)}};function getRootNode(uiJson){var type=uiJson.RootView.type;if(eval("typeof do_UISuper")!=="function")window.eval(localStorage.getItem("UI.js"));if(eval("typeof "+type)!=="function")window.eval(localStorage.getItem(type+".js"));var node=eval("new "+uiJson.RootView.type+"("+JSON.stringify(uiJson.RootView)+")");return node}function getUIByPath(path){var sourceUIJs=path+".js";if(!localStorage.getItem(path)){$.async=false;$.get(getRealUrl(path),function(data){localStorage.setItem(path,data)},"text");$.get(getRealUrl(sourceUIJs),function(data){localStorage.setItem(sourceUIJs,data)},"text")}var uiJson=eval("("+localStorage.getItem(path)+")");uiJson.RootView.uiJS=localStorage.getItem(sourceUIJs);return uiJson}window.eval(localStorage.getItem("deviceone.js"));window.allVirtualNodes={};var rootUrl=localStorage.getItem("rootUrl");var sourceUI=window.source;var sourceUIJs=sourceUI+".js";var downCount=0;var totalDownCount=2;if(!localStorage.getItem(sourceUI)||!localStorage.getItem(sourceUIJs)){$.async=true;$.get(getRealUrl(sourceUI),function(data){localStorage.setItem(sourceUI,data);downLoaded()},"text");$.get(getRealUrl(sourceUIJs),function(data){localStorage.setItem(sourceUIJs,data);downLoaded()},"text")}else{downCount=totalDownCount-1;downLoaded()}function downLoaded(){downCount++;if(downCount===totalDownCount){var uiJSON=eval("("+localStorage.getItem(sourceUI)+")");uiJSON.RootView.uiJS=localStorage.getItem(sourceUIJs);var rootNode=getRootNode(uiJSON);document.getElementById("body").appendChild(rootNode.getDOMElememt());document.getElementById("body").onresize=function(){console.log("\u6d4f\u89c8\u5668\u7a97\u53e3\u53d8\u5316");rootNode.getDOMElememt()}}};
+</script>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+    "RootView": {
+        "id": "root",
+        "width": "220",
+        "height": "150",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "img",
+                "y": "10",
+                "width": "220",
+                "height": "140",
+                "type": "do_ImageView"
+            }
+        ]
+    }
+}

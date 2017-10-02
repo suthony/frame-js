@@ -1,0 +1,148 @@
+{
+    "RootView": {
+    "id": "root",
+        "y": "-1",
+        "width": "700",
+        "height": "427",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "InforType",
+                "x": "21",
+                "y": "10",
+                "width": "86",
+                "height": "86",
+                "type": "do_ImageView",
+                "cacheType": "always",
+                "scale": "fillxory",
+                "source": " "
+            },
+            {
+                "id": "UserName",
+                "x": "124",
+                "y": "5",
+                "width": "355",
+                "height": "34",
+                "type": "do_Label",
+                "fontColor": "8080C0FF",
+                "fontSize": "28"
+            },
+            {
+                "id": "InforDescribe",
+                "x": "124",
+                "y": "42",
+                "width": "539",
+                "height": "35",
+                "type": "do_Label",
+                "fontSize": "25",
+                "maxLines": "1"
+            },
+            {
+                "id": "do_alayout_2",
+                "x": "127",
+                "y": "379",
+                "width": "791",
+                "height": "40",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "InforTime",
+                        "x": "1",
+                        "y": "2",
+                        "width": "199",
+                        "height": "31",
+                        "type": "do_Label",
+                        "fontSize": "12"
+                    },
+                    {
+                        "id": "InforReply",
+                        "x": "490",
+                        "y": "5",
+                        "width": "49",
+                        "height": "31",
+                        "visible": "false",
+                        "type": "do_Label",
+                        "fontSize": "12"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_2",
+                "x": "144",
+                "y": "82",
+                "width": "482",
+                "height": "292",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "InforImage0",
+                        "width": "135",
+                        "height": "135",
+                        "visible": "false",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "enabled": "true",
+                        "source": "source://image/d@def.png"
+                    },
+                    {
+                        "id": "InforImage1",
+                        "x": "145",
+                        "width": "135",
+                        "height": "135",
+                        "visible": "false",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "enabled": "true",
+                        "source": "source://image/d@def.png"
+                    },
+                    {
+                        "id": "InforImage2",
+                        "x": "290",
+                        "width": "135",
+                        "height": "135",
+                        "visible": "false",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "enabled": "true",
+                        "source": "source://image/d@def.png"
+                    },
+                    {
+                        "id": "InforImage5",
+                        "x": "290",
+                        "y": "145",
+                        "width": "135",
+                        "height": "135",
+                        "visible": "false",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "enabled": "true",
+                        "source": "source://image/d@def.png"
+                    },
+                    {
+                        "id": "InforImage4",
+                        "x": "145",
+                        "y": "145",
+                        "width": "135",
+                        "height": "135",
+                        "visible": "false",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "enabled": "true",
+                        "source": "source://image/d@def.png"
+                    },
+                    {
+                        "id": "InforImage3",
+                        "y": "145",
+                        "width": "135",
+                        "height": "135",
+                        "visible": "false",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "enabled": "true",
+                        "source": "source://image/d@def.png"
+                    }
+                ]
+            }
+        ]
+    }
+}

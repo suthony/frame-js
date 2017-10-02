@@ -1,0 +1,99 @@
+﻿{
+  "ID": "do_BaiduLocation",
+  "IsContainer": "0",
+  "Type": "SM",
+  "Name": "定位服务",
+  "Version": "Internal",
+  "Description": "利用设备当前的GPS信息（GPS定位），基站信息（基站定位）和Wi-Fi信息（Wi-Fi定位）完成定位，根据设备当前的实际情况（如是否开启GPS，是否连接网络，是否扫描到Wi-Fi信息等）进行定位",
+  "Icon": "https://deviceone.blob.core.chinacloudapi.cn/store/D/20160121/do_BaiduLocation/百度全景地图.jpg",
+  "IOS": {
+    "Support": 1,
+    "MinVersion": "7.0"
+  },
+  "Android": {
+    "Support": 1,
+    "MinVersion": "4.0"
+  },
+  "Windows": {
+    "Support": 0,
+    "MinVersion": ""
+  },
+  "WindowsPhone": {
+    "Support": 0,
+    "MinVersion": ""
+  },
+  "Html": {
+    "Support": 1,
+    "MinVersion": "5.0"
+  },
+  "Properties": [],
+  "Events": [
+    {
+      "ID": "result",
+      "Description": "接收到定位/更新定位时候触发",
+      "ReturnType": "Node",
+      "ReturnDesc": "{latitude:'纬度​'，longitude:'经度', address:'北京市海淀区'}"
+    }
+  ],
+  "syncMethodes": [
+    {
+      "ID": "getDistance",
+      "Name": "获取实际距离",
+      "Description": "根据上两个点的坐标来获取两点之间实际直线距离",
+      "ReturnType": "Number",
+      "ReturnDesc": "返回坐标点之间距离，单位为米",
+      "Paras": [
+        {
+          "ID": "startPoint",
+          "Name": "起点经纬度",
+          "Type": "String",
+          "Required": 1,
+          "DefaultValue": "",
+          "Description": "设置起点经纬度，如39.915174,116.403901表示(纬度,经度)"
+        },
+        {
+          "ID": "endPoint",
+          "Name": "终点坐标",
+          "Type": "String",
+          "Required": 1,
+          "DefaultValue": "",
+          "Description": "设置终点经纬度，如40.915174,117.403901表示(纬度,经度)"
+        }
+      ]
+    },
+    {
+      "ID": "start",
+      "Name": "开启定位",
+      "Description": "开启定位",
+      "ReturnType": "",
+      "ReturnDesc": "无",
+      "Paras": [
+        {
+          "ID": "model",
+          "Name": "定位模式",
+          "Type": "String",
+          "Required": 0,
+          "DefaultValue": "high",
+          "Description": "high:高精度定位模式（会同时使用Wi-Fi和基站和GPS定位，优先返回最高精度的定位结果）；low：低精度（不会使用GPS，只会使用Wi-Fi和基站定位）；middle: 中精度（不需要连接网络，只使用GPS进行定位，这种模式下不支持室内环境的定位）"
+        },
+        {
+          "ID": "isLoop",
+          "Name": "是否循环不停的获取",
+          "Type": "Bool",
+          "Required": 0,
+          "DefaultValue": "false",
+          "Description": "为false时只获取一次位置，触发一次result事件。 当值为true时,程序会不断获取新的位置（android是根据时间间隔，iOS是根据距离间隔），触发result事件"
+        }
+      ]
+    },
+    {
+      "ID": "stop",
+      "Name": "停止定位",
+      "Description": "停止定位",
+      "ReturnType": "",
+      "ReturnDesc": "无",
+      "Paras": []
+    }
+  ],
+  "asyncMethodes": []
+}

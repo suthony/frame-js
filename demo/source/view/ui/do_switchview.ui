@@ -1,0 +1,80 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "x": "-1",
+                "y": "-1",
+                "width": "711",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_SwitchView",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "y": "108",
+                "width": "700",
+                "height": "100",
+                "bgColor": "F8F8F8FF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "switchview",
+                        "x": "480",
+                        "y": "18",
+                        "width": "205",
+                        "height": "60",
+                        "type": "do_SwitchView"
+                    },
+                    {
+                        "id": "lb",
+                        "x": "6",
+                        "y": "6",
+                        "width": "436",
+                        "type": "do_Label",
+                        "fontSize": "30",
+                        "text": "转换开关为关闭状态"
+                    }
+                ]
+            }
+        ]
+    }
+}

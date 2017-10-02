@@ -1,0 +1,16 @@
+{
+    "RootView": {
+        "width": "700",
+        "height": "50",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "width": "693",
+                "height": "50",
+                "bgColor": "000000FF",
+                "type": "do_ImageView",
+                "source": "source://image/p/1.jpg"
+            }
+        ]
+    }
+}

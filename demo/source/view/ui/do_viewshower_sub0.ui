@@ -1,0 +1,35 @@
+{
+    "RootView": {
+        "width": "700",
+        "height": "350",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "width": "700",
+                "height": "300",
+                "type": "do_ImageView",
+                "source": "source://image/1.png"
+            },
+            {
+                "id": "do_alayout_1",
+                "y": "300",
+                "width": "700",
+                "height": "50",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "width": "700",
+                        "height": "50",
+                        "bgColor": "000000FF",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "20",
+                        "text": "纯原生效果、跨3大平台"
+                    }
+                ]
+            }
+        ]
+    }
+}

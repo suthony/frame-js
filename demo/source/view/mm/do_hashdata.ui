@@ -1,0 +1,319 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "x": "-1",
+                "y": "-1",
+                "width": "711",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_HashData",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_3",
+                "y": "100",
+                "width": "700",
+                "height": "1100",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_alayout_4",
+                        "width": "700",
+                        "height": "330",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_label_2",
+                                "x": "25",
+                                "y": "20",
+                                "width": "240",
+                                "height": "60",
+                                "type": "do_Label",
+                                "fontSize": "25",
+                                "text": "addData"
+                            },
+                            {
+                                "id": "bn_addData",
+                                "x": "10",
+                                "y": "90",
+                                "width": "680",
+                                "height": "60",
+                                "bgColor": "007DFBFF",
+                                "type": "do_Button",
+                                "fontColor": "FFFFFFFF",
+                                "fontSize": "25",
+                                "text": "增加数据"
+                            },
+                            {
+                                "id": "do_alayout_5",
+                                "y": "174",
+                                "width": "700",
+                                "height": "50",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_test",
+                                        "x": "25",
+                                        "y": "2",
+                                        "width": "600",
+                                        "height": "45",
+                                        "type": "do_Label",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25"
+                                    },
+                                    {
+                                        "id": "do_alayout_6",
+                                        "x": "10",
+                                        "y": "1",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_7",
+                                "y": "224",
+                                "width": "700",
+                                "height": "50",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_test1",
+                                        "x": "25",
+                                        "y": "2",
+                                        "width": "600",
+                                        "height": "45",
+                                        "type": "do_Label",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25"
+                                    },
+                                    {
+                                        "id": "do_alayout_8",
+                                        "x": "10",
+                                        "y": "1",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_9",
+                                "y": "274",
+                                "width": "700",
+                                "height": "50",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_test2",
+                                        "x": "25",
+                                        "y": "2",
+                                        "width": "600",
+                                        "height": "45",
+                                        "type": "do_Label",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25"
+                                    },
+                                    {
+                                        "id": "do_alayout_10",
+                                        "x": "10",
+                                        "y": "1",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_alayout_11",
+                                        "x": "10",
+                                        "y": "49",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_12",
+                                "y": "3",
+                                "width": "700",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "do_alayout_13",
+                        "y": "340",
+                        "width": "700",
+                        "height": "160",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_label_3",
+                                "x": "25",
+                                "y": "20",
+                                "width": "240",
+                                "height": "60",
+                                "type": "do_Label",
+                                "fontSize": "25",
+                                "text": "addOne"
+                            },
+                            {
+                                "id": "bn_addOne",
+                                "x": "10",
+                                "y": "90",
+                                "width": "680",
+                                "height": "60",
+                                "bgColor": "007DFBFF",
+                                "type": "do_Button",
+                                "fontColor": "FFFFFFFF",
+                                "fontSize": "25",
+                                "text": "增加一条数据"
+                            },
+                            {
+                                "id": "do_alayout_14",
+                                "y": "1",
+                                "width": "700",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "do_alayout_15",
+                        "y": "510",
+                        "width": "700",
+                        "height": "160",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_label_4",
+                                "x": "25",
+                                "y": "20",
+                                "width": "240",
+                                "height": "60",
+                                "type": "do_Label",
+                                "fontSize": "25",
+                                "text": "removeAll"
+                            },
+                            {
+                                "id": "bn_rmall",
+                                "x": "10",
+                                "y": "90",
+                                "width": "680",
+                                "height": "60",
+                                "bgColor": "007DFBFF",
+                                "type": "do_Button",
+                                "fontColor": "FFFFFFFF",
+                                "fontSize": "25",
+                                "text": "清空数据"
+                            },
+                            {
+                                "id": "do_alayout_16",
+                                "y": "1",
+                                "width": "700",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "do_alayout_17",
+                        "y": "680",
+                        "width": "700",
+                        "height": "160",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_label_5",
+                                "x": "25",
+                                "y": "20",
+                                "width": "240",
+                                "height": "60",
+                                "type": "do_Label",
+                                "fontSize": "25",
+                                "text": "removeOne"
+                            },
+                            {
+                                "id": "bn_rmone",
+                                "x": "10",
+                                "y": "90",
+                                "width": "680",
+                                "height": "60",
+                                "bgColor": "007DFBFF",
+                                "type": "do_Button",
+                                "fontColor": "FFFFFFFF",
+                                "fontSize": "25",
+                                "text": "删除某一行数据"
+                            },
+                            {
+                                "id": "do_alayout_18",
+                                "y": "159",
+                                "width": "700",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            },
+                            {
+                                "id": "do_alayout_19",
+                                "y": "1",
+                                "width": "700",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "RootView": {
+     "id": "root",
+        "y": "-1",
+        "width": "700",
+        "height": "141",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "InforType",
+                "x": "20",
+                "y": "10",
+                "width": "86",
+                "height": "86",
+                "type": "do_ImageView",
+                "cacheType": "always",
+                "scale": "fillxory",
+                "source": " "
+            },
+            {
+                "id": "UserName",
+                "x": "122",
+                "y": "6",
+                "width": "355",
+                "height": "35",
+                "type": "do_Label",
+                "fontColor": "8080C0FF",
+                "fontSize": "28"
+            },
+            {
+                "id": "InforDescribe",
+                "x": "122",
+                "y": "42",
+                "width": "539",
+                "height": "35",
+                "type": "do_Label",
+                "fontSize": "25",
+                "maxLines": "1"
+            },
+            {
+                "id": "do_alayout_1",
+                "x": "120",
+                "y": "85",
+                "width": "791",
+                "height": "40",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "InforTime",
+                        "x": "1",
+                        "y": "2",
+                        "width": "199",
+                        "height": "31",
+                        "type": "do_Label",
+                        "fontSize": "12"
+                    },
+                    {
+                        "id": "do_imageview_4",
+                        "x": "451",
+                        "y": "9",
+                        "width": "30",
+                        "height": "27",
+                        "visible": "false",
+                        "type": "do_ImageView",
+                        "cacheType": "always",
+                        "source": "source://image/comment@x.png"
+                    },
+                    {
+                        "id": "InforReply",
+                        "x": "490",
+                        "y": "7",
+                        "width": "49",
+                        "height": "31",
+                        "visible": "false",
+                        "type": "do_Label",
+                        "fontSize": "12"
+                    }
+                ]
+            }
+        ]
+    }
+}

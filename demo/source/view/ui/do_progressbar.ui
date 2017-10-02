@@ -1,0 +1,178 @@
+{
+    "RootView": {
+        "id": "do_alayout_11",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "x": "-1",
+                "y": "-1",
+                "width": "711",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_ProgressBar",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "lb_progress",
+                "x": "620",
+                "y": "170",
+                "width": "70",
+                "height": "46",
+                "type": "do_Label",
+                "fontColor": "0080C0FF",
+                "fontSize": "22",
+                "text": "0",
+                "textAlign": "center"
+            },
+            {
+                "id": "do_alayout_6",
+                "y": "100",
+                "width": "700",
+                "height": "200",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_5",
+                        "x": "20",
+                        "y": "10",
+                        "width": "660",
+                        "height": "50",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "进度条样式（水平）"
+                    },
+                    {
+                        "id": "do_progressbar_0",
+                        "x": "20",
+                        "y": "85",
+                        "width": "600",
+                        "height": "20",
+                        "type": "do_ProgressBar",
+                        "style": "horizontal"
+                    },
+                    {
+                        "id": "do_button_2",
+                        "x": "50",
+                        "y": "120",
+                        "width": "600",
+                        "height": "68",
+                        "bgColor": "64B1FFFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "下载"
+                    },
+                    {
+                        "id": "do_label_2",
+                        "x": "1",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_7",
+                "y": "300",
+                "width": "700",
+                "height": "500",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_6",
+                        "x": "20",
+                        "width": "660",
+                        "height": "50",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "进度条样式（普通）"
+                    },
+                    {
+                        "id": "img",
+                        "x": "150",
+                        "y": "70",
+                        "width": "400",
+                        "height": "300",
+                        "visible": "false",
+                        "type": "do_ImageView",
+                        "source": "source://image/1.png"
+                    },
+                    {
+                        "id": "do_progressbar_1",
+                        "x": "300",
+                        "y": "185",
+                        "height": "100",
+                        "visible": "false",
+                        "bgColor": "FFFFFFFF",
+                        "type": "do_ProgressBar"
+                    },
+                    {
+                        "id": "do_button_1",
+                        "x": "50",
+                        "y": "400",
+                        "width": "600",
+                        "height": "68",
+                        "bgColor": "64B1FFFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "加载图片"
+                    },
+                    {
+                        "id": "do_label_3",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_4",
+                        "y": "498",
+                        "width": "700",
+                        "height": "2",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            }
+        ]
+    }
+}

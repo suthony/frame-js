@@ -1,0 +1,436 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "width": "700",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_SQLite",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do_scrollview_1",
+                "y": "100",
+                "width": "700",
+                "height": "1245",
+                "type": "do_ScrollView",
+                "views": [
+                    {
+                        "id": "do_alayout_3",
+                        "width": "700",
+                        "height": "1800",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_alayout_4",
+                                "width": "700",
+                                "height": "175",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_2",
+                                        "x": "25",
+                                        "y": "20",
+                                        "width": "240",
+                                        "height": "60",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "打开数据库"
+                                    },
+                                    {
+                                        "id": "do_alayout_5",
+                                        "y": "84",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_alayout_6",
+                                        "y": "166",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_textfield_1",
+                                        "x": "35",
+                                        "y": "85",
+                                        "width": "600",
+                                        "type": "do_Label",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25",
+                                        "text": "data://demo.db"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_7",
+                                "y": "166",
+                                "width": "700",
+                                "height": "240",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_3",
+                                        "x": "25",
+                                        "y": "20",
+                                        "width": "240",
+                                        "height": "60",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "创建表"
+                                    },
+                                    {
+                                        "id": "do_alayout_8",
+                                        "y": "84",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_alayout_9",
+                                        "y": "224",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_label_4",
+                                        "x": "35",
+                                        "y": "85",
+                                        "width": "600",
+                                        "height": "140",
+                                        "type": "do_Label",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25",
+                                        "text": "\"CREATE TABLE IF NOT EXISTS demo (id INTEGER PRIMARY KEY AUTOINCREMENT, a, b, c, d TIMESTAMP NOT NULL DEFAULT (datetime('now','localtime')) );\""
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_10",
+                                "y": "388",
+                                "width": "700",
+                                "height": "220",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_5",
+                                        "x": "25",
+                                        "y": "20",
+                                        "width": "240",
+                                        "height": "60",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "插入数据"
+                                    },
+                                    {
+                                        "id": "do_alayout_11",
+                                        "y": "84",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_alayout_12",
+                                        "y": "204",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_label_6",
+                                        "x": "35",
+                                        "y": "85",
+                                        "width": "600",
+                                        "height": "120",
+                                        "type": "do_Label",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25",
+                                        "text": "\"INSERT INTO demo(a, b, c) VALUES ('yun', '毛毛', 'wwwwwww') \""
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_13",
+                                "y": "608",
+                                "width": "700",
+                                "height": "220",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_7",
+                                        "x": "25",
+                                        "y": "20",
+                                        "width": "240",
+                                        "height": "60",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "更改数据"
+                                    },
+                                    {
+                                        "id": "do_alayout_14",
+                                        "y": "84",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_alayout_15",
+                                        "y": "204",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_label_8",
+                                        "x": "35",
+                                        "y": "85",
+                                        "width": "600",
+                                        "height": "120",
+                                        "type": "do_Label",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25",
+                                        "text": "\"UPDATE  demo SET c='ccccccc',d=(datetime('now','localtime')) WHERE a='yun'; \""
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_16",
+                                "y": "828",
+                                "width": "700",
+                                "height": "220",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_9",
+                                        "x": "25",
+                                        "y": "20",
+                                        "width": "240",
+                                        "height": "60",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "查询数据"
+                                    },
+                                    {
+                                        "id": "do_alayout_17",
+                                        "y": "84",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_alayout_18",
+                                        "y": "204",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_label_10",
+                                        "x": "35",
+                                        "y": "85",
+                                        "width": "600",
+                                        "height": "120",
+                                        "type": "do_Label",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25",
+                                        "text": "\"SELECT * FROM demo\""
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_19",
+                                "y": "1048",
+                                "width": "700",
+                                "height": "220",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_11",
+                                        "x": "25",
+                                        "y": "20",
+                                        "width": "240",
+                                        "height": "60",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "删除表"
+                                    },
+                                    {
+                                        "id": "do_alayout_20",
+                                        "y": "84",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_alayout_21",
+                                        "y": "204",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_ALayout"
+                                    },
+                                    {
+                                        "id": "do_label_12",
+                                        "x": "35",
+                                        "y": "85",
+                                        "width": "600",
+                                        "height": "120",
+                                        "type": "do_Label",
+                                        "fontColor": "B6B6B6FF",
+                                        "fontSize": "25",
+                                        "text": "\"DROP TABLE demo;\""
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_22",
+                                "y": "1245",
+                                "width": "700",
+                                "height": "500",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "btn_open",
+                                        "x": "10",
+                                        "y": "50",
+                                        "width": "680",
+                                        "height": "60",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "25",
+                                        "text": "打开数据库"
+                                    },
+                                    {
+                                        "id": "btn_create",
+                                        "x": "10",
+                                        "y": "130",
+                                        "width": "330",
+                                        "height": "60",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "25",
+                                        "text": "创建表"
+                                    },
+                                    {
+                                        "id": "btn_insert",
+                                        "x": "355",
+                                        "y": "130",
+                                        "width": "335",
+                                        "height": "60",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "25",
+                                        "text": "插入数据"
+                                    },
+                                    {
+                                        "id": "btn_updata",
+                                        "x": "10",
+                                        "y": "210",
+                                        "width": "330",
+                                        "height": "60",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "25",
+                                        "text": "更改数据"
+                                    },
+                                    {
+                                        "id": "btn_select",
+                                        "x": "355",
+                                        "y": "210",
+                                        "width": "335",
+                                        "height": "60",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "25",
+                                        "text": "查询数据"
+                                    },
+                                    {
+                                        "id": "btn_drop",
+                                        "x": "10",
+                                        "y": "300",
+                                        "width": "330",
+                                        "height": "60",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "25",
+                                        "text": "删除表"
+                                    },
+                                    {
+                                        "id": "btn_close",
+                                        "x": "355",
+                                        "y": "300",
+                                        "width": "335",
+                                        "height": "60",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "25",
+                                        "text": "关闭数据库"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

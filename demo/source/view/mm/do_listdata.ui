@@ -1,0 +1,135 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "x": "-1",
+                "y": "-1",
+                "width": "711",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_ListData",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do_listview_1",
+                "y": "100",
+                "width": "700",
+                "height": "944",
+                "type": "do_ListView",
+                "templates": "source://view/mm/listdata_cell.ui"
+            },
+            {
+                "id": "do_alayout_3",
+                "y": "1045",
+                "width": "700",
+                "height": "200",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "add_one",
+                        "x": "20",
+                        "y": "20",
+                        "width": "320",
+                        "height": "70",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "增加一条数据"
+                    },
+                    {
+                        "id": "add_more",
+                        "x": "370",
+                        "y": "20",
+                        "width": "320",
+                        "height": "70",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "增加多条数据"
+                    },
+                    {
+                        "id": "del_one",
+                        "x": "20",
+                        "y": "110",
+                        "width": "320",
+                        "height": "70",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "删除一行数据"
+                    },
+                    {
+                        "id": "del_all",
+                        "x": "370",
+                        "y": "110",
+                        "width": "320",
+                        "height": "70",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "清空数据"
+                    }
+                ]
+            },
+            {
+                "id": "do_label_2",
+                "y": "101",
+                "width": "700",
+                "height": "1",
+                "bgColor": "D8D8D8FF",
+                "type": "do_Label"
+            },
+            {
+                "id": "do_label_3",
+                "y": "1044",
+                "width": "700",
+                "height": "1",
+                "bgColor": "D8D8D8FF",
+                "type": "do_Label"
+            }
+        ]
+    }
+}

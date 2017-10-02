@@ -1,0 +1,2 @@
+//mm组件父类
+function MM(){this.eventFactory={};deviceone.call(this);this.address=guid();window.parent.MMFactory[this.address]=this}(function(){var Super=function(){};Super.prototype=deviceone.prototype;MM.prototype=new Super;MM.prototype.release=release;MM.prototype.on=function(eventName,func){this.eventFactory[eventName]=this.eventFactory[eventName]?this.eventFactory[eventName]:[];this.eventFactory[eventName].push(func)};function release(){delete window.parent.MMFactory[this.address]}})();

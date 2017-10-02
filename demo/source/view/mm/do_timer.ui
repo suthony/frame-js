@@ -1,0 +1,159 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "width": "700",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_33",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_Timer",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_44",
+                "x": "1",
+                "y": "377",
+                "width": "700",
+                "height": "283",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_55",
+                        "y": "10",
+                        "width": "700",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "计时器倒计时"
+                    },
+                    {
+                        "id": "bn_02",
+                        "x": "10",
+                        "y": "96",
+                        "width": "680",
+                        "height": "60",
+                        "bgColor": "FF8080FF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "Start  Timer 02"
+                    },
+                    {
+                        "id": "do_button_2",
+                        "x": "10",
+                        "y": "200",
+                        "width": "680",
+                        "height": "60",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "End  Timer 02"
+                    },
+                    {
+                        "id": "do_alayout_66",
+                        "y": "282",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_ALayout"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_77",
+                "y": "100",
+                "width": "700",
+                "height": "280",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_88",
+                        "y": "10",
+                        "width": "700",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "计时器计时"
+                    },
+                    {
+                        "id": "bn_01",
+                        "x": "10",
+                        "y": "96",
+                        "width": "680",
+                        "height": "60",
+                        "bgColor": "FF8080FF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "Start  Timer 01"
+                    },
+                    {
+                        "id": "do_button_1",
+                        "x": "10",
+                        "y": "200",
+                        "width": "680",
+                        "height": "60",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "End  Timer 01"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_99",
+                "y": "384",
+                "width": "700",
+                "height": "1",
+                "bgColor": "D8D8D8FF",
+                "type": "do_ALayout"
+            },
+            {
+                "id": "do_alayout_10",
+                "y": "102",
+                "width": "700",
+                "height": "1",
+                "bgColor": "D8D8D8FF",
+                "type": "do_ALayout"
+            }
+        ]
+    }
+}

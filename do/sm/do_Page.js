@@ -1,0 +1,1 @@
+function do_Page(){this.type="do_Page";this.getData=getData;SM.call(this);function getData(){return this.data}}(function(){var Super=function(){};Super.prototype=SM.prototype;do_Page.prototype=new Super})();

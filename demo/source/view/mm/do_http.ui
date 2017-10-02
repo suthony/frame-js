@@ -1,0 +1,252 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "x": "-1",
+                "y": "-1",
+                "width": "711",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_Http",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "y": "100",
+                "width": "700",
+                "height": "150",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "e_get",
+                        "x": "50",
+                        "y": "80",
+                        "width": "600",
+                        "height": "60",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "GET"
+                    },
+                    {
+                        "id": "do_label_2",
+                        "x": "20",
+                        "y": "10",
+                        "width": "660",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "get请求"
+                    },
+                    {
+                        "id": "do_label_3",
+                        "y": "1",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_3",
+                "y": "250",
+                "width": "700",
+                "height": "150",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "e_post",
+                        "x": "50",
+                        "y": "80",
+                        "width": "600",
+                        "height": "60",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "POST"
+                    },
+                    {
+                        "id": "do_label_4",
+                        "x": "20",
+                        "y": "10",
+                        "width": "660",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "post请求"
+                    },
+                    {
+                        "id": "do_label_5",
+                        "y": "1",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_4",
+                "y": "400",
+                "width": "700",
+                "height": "150",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "e_upload",
+                        "x": "50",
+                        "y": "80",
+                        "width": "600",
+                        "height": "60",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "UPLOAD"
+                    },
+                    {
+                        "id": "do_label_6",
+                        "x": "20",
+                        "y": "10",
+                        "width": "660",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "upload方法"
+                    },
+                    {
+                        "id": "do_label_7",
+                        "y": "1",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_5",
+                "y": "550",
+                "width": "700",
+                "height": "150",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "e_download",
+                        "x": "50",
+                        "y": "80",
+                        "width": "600",
+                        "height": "60",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "DOWNLOAD"
+                    },
+                    {
+                        "id": "do_label_8",
+                        "x": "20",
+                        "y": "10",
+                        "width": "660",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "download方法"
+                    },
+                    {
+                        "id": "do_label_9",
+                        "y": "1",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_10",
+                        "y": "149",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_6",
+                "x": "50",
+                "y": "710",
+                "width": "600",
+                "height": "530",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_scrollview_1",
+                        "width": "600",
+                        "height": "530",
+                        "type": "do_ScrollView",
+                        "isShowbar": "true",
+                        "views": [
+                            {
+                                "id": "do_linearlayout_1",
+                                "width": "600",
+                                "height": "530",
+                                "type": "do_LinearLayout",
+                                "views": [
+                                    {
+                                        "id": "label_info",
+                                        "width": "600",
+                                        "height": "-1",
+                                        "type": "do_Label",
+                                        "fontColor": "959595FF",
+                                        "fontSize": "20"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

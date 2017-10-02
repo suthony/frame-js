@@ -1,0 +1,154 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "width": "700",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_TextBox",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_3",
+                "y": "100",
+                "width": "700",
+                "height": "1145",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_alayout_4",
+                        "x": "50",
+                        "y": "40",
+                        "width": "620",
+                        "height": "60",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_label_2",
+                                "width": "60",
+                                "height": "60",
+                                "type": "do_Label",
+                                "fontSize": "25",
+                                "text": "主题"
+                            },
+                            {
+                                "id": "do_alayout_5",
+                                "x": "50",
+                                "y": "100",
+                                "width": "620",
+                                "height": "469",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_3",
+                                        "width": "60",
+                                        "height": "60",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "正文"
+                                    },
+                                    {
+                                        "id": "do_textbox_4tf",
+                                        "x": "70",
+                                        "width": "520",
+                                        "height": "400",
+                                        "type": "do_TextBox",
+                                        "fontSize": "25",
+                                        "hint": "  回复你想说的话..."
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_textbox_3",
+                                "x": "70",
+                                "width": "520",
+                                "height": "60",
+                                "type": "do_TextBox",
+                                "fontSize": "25",
+                                "hint": "  最多不能超过十个字...",
+                                "maxLength": "10"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "do_alayout_6",
+                        "x": "50",
+                        "y": "100",
+                        "width": "620",
+                        "height": "469",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_label_4",
+                                "width": "60",
+                                "height": "60",
+                                "type": "do_Label",
+                                "fontSize": "25",
+                                "text": "正文"
+                            },
+                            {
+                                "id": "do_textbox_4tf1",
+                                "x": "70",
+                                "width": "520",
+                                "height": "400",
+                                "type": "do_TextBox",
+                                "fontSize": "25",
+                                "hint": "  回复你想说的话..."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do_button_2_2",
+                "x": "10",
+                "y": "740",
+                "width": "670",
+                "bgColor": "64B1FFFF",
+                "type": "do_Button",
+                "fontColor": "FFFFFFFF",
+                "fontSize": "25",
+                "text": "发送"
+            }
+        ]
+    }
+}

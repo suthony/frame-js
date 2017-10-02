@@ -1,0 +1,449 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_scrollview_2",
+                "width": "700",
+                "height": "1245",
+                "type": "do_ScrollView",
+                "views": [
+                    {
+                        "id": "do_alayout_33",
+                        "width": "700",
+                        "height": "1400",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_alayout_44",
+                                "width": "700",
+                                "height": "100",
+                                "bgColor": "64B1FFFF",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_55",
+                                        "x": "200",
+                                        "y": "21",
+                                        "width": "300",
+                                        "height": "54",
+                                        "type": "do_Label",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "33",
+                                        "maxLines": "1",
+                                        "text": "do_Storage",
+                                        "textAlign": "center"
+                                    },
+                                    {
+                                        "id": "action_back",
+                                        "x": "2",
+                                        "y": "3",
+                                        "width": "103",
+                                        "height": "92",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_imageview_4",
+                                                "x": "38",
+                                                "y": "25",
+                                                "width": "19",
+                                                "height": "35",
+                                                "type": "do_ImageView",
+                                                "source": "source://image/topbar@back.png"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_66",
+                                "y": "100",
+                                "width": "700",
+                                "height": "550",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_11",
+                                        "x": "20",
+                                        "y": "2",
+                                        "width": "380",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "目录:data://"
+                                    },
+                                    {
+                                        "id": "btn_dirExist",
+                                        "x": "20",
+                                        "y": "465",
+                                        "width": "150",
+                                        "height": "70",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "16",
+                                        "text": "判断目录是否存在"
+                                    },
+                                    {
+                                        "id": "btn_getDirs",
+                                        "x": "190",
+                                        "y": "465",
+                                        "width": "150",
+                                        "height": "70",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "16",
+                                        "text": "获取目录列表"
+                                    },
+                                    {
+                                        "id": "btn_getFiles",
+                                        "x": "360",
+                                        "y": "465",
+                                        "width": "150",
+                                        "height": "70",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "16",
+                                        "text": "获取文件列表"
+                                    },
+                                    {
+                                        "id": "btn_deleteDir",
+                                        "x": "530",
+                                        "y": "465",
+                                        "width": "150",
+                                        "height": "70",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "16",
+                                        "text": "删除目录"
+                                    },
+                                    {
+                                        "id": "do_label_77",
+                                        "width": "700",
+                                        "height": "2",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    },
+                                    {
+                                        "id": "do_label_88",
+                                        "x": "20",
+                                        "y": "78",
+                                        "width": "680",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    },
+                                    {
+                                        "id": "lb_direx",
+                                        "x": "400",
+                                        "y": "2",
+                                        "width": "280",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontColor": "959595FF",
+                                        "fontSize": "25",
+                                        "textAlign": "right"
+                                    },
+                                    {
+                                        "id": "do_label_99",
+                                        "x": "20",
+                                        "y": "85",
+                                        "width": "210",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "目录、文件列表:"
+                                    },
+                                    {
+                                        "id": "do_label_20",
+                                        "x": "20",
+                                        "y": "450",
+                                        "width": "680",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    },
+                                    {
+                                        "id": "do_linearlayout_21",
+                                        "x": "20",
+                                        "y": "145",
+                                        "width": "660",
+                                        "height": "305",
+                                        "type": "do_LinearLayout",
+                                        "views": [
+                                            {
+                                                "id": "lb_list1",
+                                                "width": "660",
+                                                "height": "-1",
+                                                "type": "do_Label",
+                                                "fontColor": "959595FF",
+                                                "fontSize": "25",
+                                                "maxLines": "9"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_23",
+                                "y": "650",
+                                "width": "700",
+                                "height": "350",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_24",
+                                        "x": "20",
+                                        "width": "380",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "文件:data://data1/data1.txt"
+                                    },
+                                    {
+                                        "id": "btn_fileExist",
+                                        "x": "20",
+                                        "y": "265",
+                                        "width": "150",
+                                        "height": "70",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "16",
+                                        "text": "判断文件是否存在"
+                                    },
+                                    {
+                                        "id": "btn_readFile",
+                                        "x": "190",
+                                        "y": "265",
+                                        "width": "160",
+                                        "height": "70",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "16",
+                                        "text": "读取文件内容"
+                                    },
+                                    {
+                                        "id": "btn_writeFile",
+                                        "x": "360",
+                                        "y": "265",
+                                        "width": "160",
+                                        "height": "70",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "16",
+                                        "text": "写文件"
+                                    },
+                                    {
+                                        "id": "btn_deleteFile",
+                                        "x": "530",
+                                        "y": "265",
+                                        "width": "160",
+                                        "height": "70",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "16",
+                                        "text": "删除文件"
+                                    },
+                                    {
+                                        "id": "do_label_25",
+                                        "width": "700",
+                                        "height": "2",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    },
+                                    {
+                                        "id": "do_label_26",
+                                        "x": "20",
+                                        "y": "78",
+                                        "width": "680",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    },
+                                    {
+                                        "id": "lb_fileex",
+                                        "x": "400",
+                                        "width": "280",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontColor": "959595FF",
+                                        "fontSize": "25",
+                                        "textAlign": "right"
+                                    },
+                                    {
+                                        "id": "do_label_13",
+                                        "x": "20",
+                                        "y": "85",
+                                        "width": "250",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "文件data1.txt内容:"
+                                    },
+                                    {
+                                        "id": "lb_text",
+                                        "x": "270",
+                                        "y": "85",
+                                        "width": "400",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontColor": "959595FF",
+                                        "fontSize": "25"
+                                    },
+                                    {
+                                        "id": "do_label_14",
+                                        "x": "20",
+                                        "y": "163",
+                                        "width": "680",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    },
+                                    {
+                                        "id": "do_label_27",
+                                        "x": "20",
+                                        "y": "170",
+                                        "width": "250",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "写文件data1.txt"
+                                    },
+                                    {
+                                        "id": "tx_text",
+                                        "x": "270",
+                                        "y": "170",
+                                        "width": "400",
+                                        "height": "70",
+                                        "type": "do_TextField",
+                                        "fontSize": "25",
+                                        "hint": "请输入写文件内容"
+                                    },
+                                    {
+                                        "id": "do_label_28",
+                                        "x": "20",
+                                        "y": "245",
+                                        "width": "680",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_29",
+                                "y": "1000",
+                                "width": "700",
+                                "height": "350",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "do_label_16",
+                                        "x": "20",
+                                        "y": "2",
+                                        "width": "400",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "文件:data://imgs/deviceone.png"
+                                    },
+                                    {
+                                        "id": "btn_copyFile",
+                                        "x": "20",
+                                        "y": "260",
+                                        "width": "320",
+                                        "height": "70",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "16",
+                                        "text": "拷贝文件"
+                                    },
+                                    {
+                                        "id": "do_label_30",
+                                        "width": "700",
+                                        "height": "2",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    },
+                                    {
+                                        "id": "do_label_31",
+                                        "x": "20",
+                                        "y": "80",
+                                        "width": "680",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    },
+                                    {
+                                        "id": "lb_copy",
+                                        "x": "420",
+                                        "y": "2",
+                                        "width": "260",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontColor": "959595FF",
+                                        "fontSize": "25",
+                                        "textAlign": "right"
+                                    },
+                                    {
+                                        "id": "do_label_17",
+                                        "x": "20",
+                                        "y": "85",
+                                        "width": "240",
+                                        "height": "70",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "路径:data://data4"
+                                    },
+                                    {
+                                        "id": "btn_copyext",
+                                        "x": "370",
+                                        "y": "260",
+                                        "width": "320",
+                                        "height": "70",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "16",
+                                        "text": "查询data4下的文件"
+                                    },
+                                    {
+                                        "id": "lb_ext",
+                                        "x": "260",
+                                        "y": "90",
+                                        "width": "420",
+                                        "height": "150",
+                                        "type": "do_Label",
+                                        "fontColor": "959595FF",
+                                        "fontSize": "25"
+                                    },
+                                    {
+                                        "id": "do_label_32",
+                                        "x": "20",
+                                        "y": "245",
+                                        "width": "680",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

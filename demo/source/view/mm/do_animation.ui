@@ -1,0 +1,228 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "x": "-1",
+                "y": "-1",
+                "width": "711",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_Animation",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "action_m",
+                "y": "100",
+                "width": "700",
+                "height": "160",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "action_0",
+                        "x": "50",
+                        "y": "90",
+                        "width": "600",
+                        "height": "60",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "Alaph"
+                    },
+                    {
+                        "id": "do_label_2",
+                        "x": "20",
+                        "y": "10",
+                        "width": "660",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "透明度动画"
+                    },
+                    {
+                        "id": "do_label_3",
+                        "y": "159",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    },
+                    {
+                        "id": "do_label_4",
+                        "y": "2",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "img_logo",
+                "x": "280",
+                "y": "850",
+                "width": "140",
+                "height": "140",
+                "type": "do_ImageView",
+                "scale": "fillxory",
+                "source": "source://image/deviceone.png"
+            },
+            {
+                "id": "do_alayout_3",
+                "y": "260",
+                "width": "700",
+                "height": "160",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_5",
+                        "x": "20",
+                        "y": "10",
+                        "width": "660",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "位移动画"
+                    },
+                    {
+                        "id": "action_1",
+                        "x": "50",
+                        "y": "90",
+                        "width": "600",
+                        "height": "60",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "Transfer"
+                    },
+                    {
+                        "id": "do_label_6",
+                        "y": "159",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_4",
+                "y": "420",
+                "width": "700",
+                "height": "160",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_7",
+                        "x": "20",
+                        "y": "10",
+                        "width": "660",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "缩放动画"
+                    },
+                    {
+                        "id": "action_2",
+                        "x": "50",
+                        "y": "90",
+                        "width": "600",
+                        "height": "60",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "Scale"
+                    },
+                    {
+                        "id": "do_label_8",
+                        "y": "159",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            },
+            {
+                "id": "do_alayout_5",
+                "y": "580",
+                "width": "700",
+                "height": "160",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_9",
+                        "x": "20",
+                        "y": "10",
+                        "width": "660",
+                        "height": "60",
+                        "type": "do_Label",
+                        "fontSize": "25",
+                        "text": "旋转动画"
+                    },
+                    {
+                        "id": "action_3",
+                        "x": "50",
+                        "y": "90",
+                        "width": "600",
+                        "height": "60",
+                        "bgColor": "007DFBFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "Rotate"
+                    },
+                    {
+                        "id": "do_label_10",
+                        "y": "159",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_Label"
+                    }
+                ]
+            }
+        ]
+    }
+}

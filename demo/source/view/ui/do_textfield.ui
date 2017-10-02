@@ -1,0 +1,309 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "x": "-1",
+                "y": "-1",
+                "width": "711",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_1",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_TextField",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "y": "100",
+                "width": "700",
+                "height": "633",
+                "bgColor": "FFFFFFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_alayout_3",
+                        "x": "25",
+                        "y": "55",
+                        "width": "655",
+                        "height": "75",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_1",
+                                "x": "-4",
+                                "y": "9",
+                                "width": "55",
+                                "height": "55",
+                                "type": "do_ImageView",
+                                "source": "source://image/webview/img_main_right_menuitem_scan_media.png"
+                            },
+                            {
+                                "id": "do_textfield_3",
+                                "x": "53",
+                                "y": "6",
+                                "width": "595",
+                                "height": "60",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_TextField",
+                                "clearAll": "true",
+                                "fontSize": "25",
+                                "hint": "请输入搜索内容",
+                                "inputType": "PHONENUMBER"
+                            },
+                            {
+                                "id": "do_alayout_4",
+                                "width": "1",
+                                "height": "70",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            },
+                            {
+                                "id": "do_alayout_5",
+                                "x": "660",
+                                "width": "1",
+                                "height": "70",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            },
+                            {
+                                "id": "do_alayout_6",
+                                "width": "655",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            },
+                            {
+                                "id": "do_alayout_7",
+                                "y": "70",
+                                "width": "655",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "do_alayout_8",
+                        "x": "20",
+                        "y": "160",
+                        "width": "660",
+                        "height": "98",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_2",
+                                "x": "12",
+                                "y": "28",
+                                "width": "30",
+                                "height": "30",
+                                "type": "do_ImageView",
+                                "source": "source://image/sex@b.png"
+                            },
+                            {
+                                "id": "do_textfield_4",
+                                "x": "53",
+                                "y": "17",
+                                "width": "608",
+                                "height": "60",
+                                "bgColor": "FFFFFFFF",
+                                "type": "do_TextField",
+                                "fontSize": "25",
+                                "hint": "用户名",
+                                "inputType": "ASC"
+                            },
+                            {
+                                "id": "do_alayout_9",
+                                "width": "1",
+                                "height": "95",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            },
+                            {
+                                "id": "do_alayout_10",
+                                "x": "659",
+                                "width": "1",
+                                "height": "95",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            },
+                            {
+                                "id": "do_alayout_11",
+                                "width": "661",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            },
+                            {
+                                "id": "do_alayout_12",
+                                "y": "93",
+                                "width": "661",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "do_alayout_13",
+                        "x": "20",
+                        "y": "255",
+                        "width": "660",
+                        "height": "95",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_3",
+                                "x": "12",
+                                "y": "27",
+                                "width": "30",
+                                "height": "30",
+                                "type": "do_ImageView",
+                                "source": "source://image/password.png"
+                            },
+                            {
+                                "id": "do_textfield_5",
+                                "x": "53",
+                                "y": "17",
+                                "width": "608",
+                                "height": "60",
+                                "bgColor": "FFFFFFFF",
+                                "type": "do_TextField",
+                                "clearAll": "true",
+                                "fontSize": "25",
+                                "hint": "密码",
+                                "password": "true"
+                            },
+                            {
+                                "id": "do_alayout_14",
+                                "width": "1",
+                                "height": "95",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            },
+                            {
+                                "id": "do_alayout_15",
+                                "x": "659",
+                                "width": "1",
+                                "height": "95",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            },
+                            {
+                                "id": "do_alayout_16",
+                                "y": "93",
+                                "width": "661",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "do_button_1",
+                        "x": "7",
+                        "y": "500",
+                        "width": "680",
+                        "bgColor": "64B1FFFF",
+                        "type": "do_Button",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "25",
+                        "text": "提交"
+                    },
+                    {
+                        "id": "do_alayout_17",
+                        "x": "20",
+                        "y": "350",
+                        "width": "660",
+                        "height": "95",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_5",
+                                "x": "15",
+                                "y": "33",
+                                "width": "30",
+                                "height": "30",
+                                "type": "do_ImageView",
+                                "source": "source://image/comment@x.png"
+                            },
+                            {
+                                "id": "do_textfield_textf",
+                                "x": "53",
+                                "y": "17",
+                                "width": "608",
+                                "height": "60",
+                                "bgColor": "FFFFFFFF",
+                                "type": "do_TextField",
+                                "clearAll": "true",
+                                "fontSize": "25",
+                                "hint": "你想说的话...",
+                                "inputType": "ASC"
+                            },
+                            {
+                                "id": "do_alayout_18",
+                                "width": "1",
+                                "height": "95",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            },
+                            {
+                                "id": "do_alayout_19",
+                                "x": "659",
+                                "width": "1",
+                                "height": "95",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "do_alayout_20",
+                        "x": "20",
+                        "y": "442",
+                        "width": "660",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_ALayout"
+                    }
+                ]
+            }
+        ]
+    }
+}

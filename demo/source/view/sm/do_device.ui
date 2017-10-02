@@ -1,0 +1,666 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "x": "-1",
+                "y": "-1",
+                "width": "711",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_33",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_Device",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do_scrollview_1",
+                "x": "2",
+                "y": "105",
+                "width": "700",
+                "height": "1145",
+                "type": "do_ScrollView",
+                "views": [
+                    {
+                        "id": "do_alayout_44",
+                        "width": "700",
+                        "height": "1400",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "x": "2",
+                                "width": "695",
+                                "height": "970",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "bn_getInfo",
+                                        "x": "10",
+                                        "y": "60",
+                                        "width": "680",
+                                        "height": "40",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "22",
+                                        "text": "getInfo"
+                                    },
+                                    {
+                                        "id": "do_label_55",
+                                        "x": "20",
+                                        "y": "10",
+                                        "width": "200",
+                                        "height": "35",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "获取设备信息"
+                                    },
+                                    {
+                                        "id": "do_label_66",
+                                        "y": "1",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    },
+                                    {
+                                        "id": "do_alayout_77",
+                                        "x": "10",
+                                        "y": "120",
+                                        "width": "700",
+                                        "height": "60",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_label_88",
+                                                "y": "5",
+                                                "width": "200",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25",
+                                                "text": "设备ID"
+                                            },
+                                            {
+                                                "id": "dv_id",
+                                                "x": "220",
+                                                "y": "5",
+                                                "width": "300",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "do_label_99",
+                                        "y": "110",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    },
+                                    {
+                                        "id": "do_alayout_10",
+                                        "x": "10",
+                                        "y": "180",
+                                        "width": "700",
+                                        "height": "60",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_label_11",
+                                                "y": "5",
+                                                "width": "200",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25",
+                                                "text": "设备名称"
+                                            },
+                                            {
+                                                "id": "dv_name",
+                                                "x": "220",
+                                                "y": "5",
+                                                "width": "200",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "do_alayout_12",
+                                        "x": "10",
+                                        "y": "240",
+                                        "width": "700",
+                                        "height": "60",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_label_13",
+                                                "y": "5",
+                                                "width": "200",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25",
+                                                "text": "操作系统版本"
+                                            },
+                                            {
+                                                "id": "dv_os",
+                                                "x": "220",
+                                                "y": "5",
+                                                "width": "220",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "do_alayout_14",
+                                        "x": "10",
+                                        "y": "300",
+                                        "width": "700",
+                                        "height": "60",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_label_15",
+                                                "y": "5",
+                                                "width": "200",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25",
+                                                "text": "操作系统版本号"
+                                            },
+                                            {
+                                                "id": "dv_osversion",
+                                                "x": "220",
+                                                "y": "5",
+                                                "width": "220",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "do_alayout_16",
+                                        "x": "10",
+                                        "y": "360",
+                                        "width": "700",
+                                        "height": "60",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_label_17",
+                                                "y": "5",
+                                                "width": "300",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25",
+                                                "text": "手机操作系统SDK版本号"
+                                            },
+                                            {
+                                                "id": "dv_sdkversion",
+                                                "x": "320",
+                                                "y": "5",
+                                                "width": "220",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "do_alayout_18",
+                                        "x": "10",
+                                        "y": "420",
+                                        "width": "700",
+                                        "height": "60",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_label_19",
+                                                "y": "5",
+                                                "width": "200",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25",
+                                                "text": "水平分辨率"
+                                            },
+                                            {
+                                                "id": "dv_h",
+                                                "x": "220",
+                                                "y": "5",
+                                                "width": "220",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "do_alayout_20",
+                                        "x": "10",
+                                        "y": "480",
+                                        "width": "700",
+                                        "height": "60",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_label_21",
+                                                "y": "5",
+                                                "width": "200",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25",
+                                                "text": "垂直分辨率"
+                                            },
+                                            {
+                                                "id": "dv_v",
+                                                "x": "220",
+                                                "y": "5",
+                                                "width": "220",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "do_alayout_22",
+                                        "x": "10",
+                                        "y": "540",
+                                        "width": "700",
+                                        "height": "60",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_label_23",
+                                                "y": "5",
+                                                "width": "200",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25",
+                                                "text": "水平像素密度"
+                                            },
+                                            {
+                                                "id": "dv_ndpih",
+                                                "x": "220",
+                                                "y": "5",
+                                                "width": "220",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "do_alayout_24",
+                                        "x": "10",
+                                        "y": "600",
+                                        "width": "700",
+                                        "height": "60",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_label_25",
+                                                "y": "5",
+                                                "width": "200",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25",
+                                                "text": "垂直像素密度"
+                                            },
+                                            {
+                                                "id": "dv_ndpiv",
+                                                "x": "220",
+                                                "y": "5",
+                                                "width": "220",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "do_alayout_26",
+                                        "x": "10",
+                                        "y": "660",
+                                        "width": "700",
+                                        "height": "60",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_label_27",
+                                                "y": "5",
+                                                "width": "200",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25",
+                                                "text": "水平屏幕宽度"
+                                            },
+                                            {
+                                                "id": "dv_scrh",
+                                                "x": "220",
+                                                "y": "5",
+                                                "width": "220",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "do_alayout_28",
+                                        "x": "10",
+                                        "y": "720",
+                                        "width": "700",
+                                        "height": "60",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_label_29",
+                                                "y": "5",
+                                                "width": "200",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25",
+                                                "text": "垂直屏幕宽度"
+                                            },
+                                            {
+                                                "id": "dv_scrv",
+                                                "x": "220",
+                                                "y": "5",
+                                                "width": "220",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "do_alayout_30",
+                                        "x": "10",
+                                        "y": "780",
+                                        "width": "700",
+                                        "height": "60",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_label_31",
+                                                "y": "5",
+                                                "width": "200",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25",
+                                                "text": "运营商类型"
+                                            },
+                                            {
+                                                "id": "dv_comm",
+                                                "x": "220",
+                                                "y": "5",
+                                                "width": "220",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "do_alayout_32",
+                                        "x": "10",
+                                        "y": "840",
+                                        "width": "700",
+                                        "height": "60",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_label_34",
+                                                "y": "5",
+                                                "width": "200",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25",
+                                                "text": "SIM卡的序列号"
+                                            },
+                                            {
+                                                "id": "dv_sim",
+                                                "x": "220",
+                                                "y": "5",
+                                                "width": "400",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "do_alayout_35",
+                                        "x": "10",
+                                        "y": "900",
+                                        "width": "700",
+                                        "height": "60",
+                                        "type": "do_ALayout",
+                                        "views": [
+                                            {
+                                                "id": "do_label_36",
+                                                "y": "5",
+                                                "width": "200",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25",
+                                                "text": "IMSI"
+                                            },
+                                            {
+                                                "id": "dv_imsi",
+                                                "x": "220",
+                                                "y": "5",
+                                                "width": "220",
+                                                "height": "50",
+                                                "type": "do_Label",
+                                                "fontColor": "B6B6B6FF",
+                                                "fontSize": "25"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "do_label_37",
+                                        "y": "969",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_38",
+                                "x": "2",
+                                "y": "970",
+                                "width": "695",
+                                "height": "130",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "vibrate",
+                                        "x": "10",
+                                        "y": "60",
+                                        "width": "680",
+                                        "height": "55",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "22",
+                                        "text": "vibrate"
+                                    },
+                                    {
+                                        "id": "do_label_39",
+                                        "x": "20",
+                                        "y": "10",
+                                        "width": "200",
+                                        "height": "35",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "设备振动"
+                                    },
+                                    {
+                                        "id": "do_label_40",
+                                        "y": "129",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_41",
+                                "x": "2",
+                                "y": "1100",
+                                "width": "695",
+                                "height": "130",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "beep",
+                                        "x": "10",
+                                        "y": "60",
+                                        "width": "680",
+                                        "height": "55",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "22",
+                                        "text": "beep"
+                                    },
+                                    {
+                                        "id": "do_label_42",
+                                        "x": "20",
+                                        "y": "10",
+                                        "width": "200",
+                                        "height": "35",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "短音提示"
+                                    },
+                                    {
+                                        "id": "do_label_43",
+                                        "y": "129",
+                                        "width": "700",
+                                        "height": "1",
+                                        "bgColor": "D8D8D8FF",
+                                        "type": "do_Label"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_alayout_45",
+                                "x": "2",
+                                "y": "1230",
+                                "width": "695",
+                                "height": "130",
+                                "type": "do_ALayout",
+                                "views": [
+                                    {
+                                        "id": "flash",
+                                        "x": "10",
+                                        "y": "60",
+                                        "width": "680",
+                                        "height": "55",
+                                        "bgColor": "007DFBFF",
+                                        "type": "do_Button",
+                                        "fontColor": "FFFFFFFF",
+                                        "fontSize": "22",
+                                        "text": "flash"
+                                    },
+                                    {
+                                        "id": "do_label_46",
+                                        "x": "20",
+                                        "y": "10",
+                                        "width": "200",
+                                        "height": "35",
+                                        "type": "do_Label",
+                                        "fontSize": "25",
+                                        "text": "开关闪光灯"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "do_label_47",
+                                "y": "1358",
+                                "width": "700",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_Label"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "RootView": {
+        "width": "700",
+        "height": "1244",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_4",
+                "x": "-1",
+                "y": "-1",
+                "width": "711",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_2",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_ListView",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_4",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "do_listview",
+                "x": "1",
+                "y": "100",
+                "width": "700",
+                "height": "1145",
+                "type": "do_ListView",
+                "templates": "source://view/ui/do_listview_cell0.ui,source://view/ui/do_listview_cell1.ui,source://view/ui/do_listview_cell2.ui,source://view/ui/do_listview_cell3.ui"
+            }
+        ]
+    }
+}

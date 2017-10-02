@@ -1,0 +1,274 @@
+{
+    "RootView": {
+        "id": "do_alayout_1",
+        "width": "700",
+        "height": "1245",
+        "bgColor": "FFFFFFFF",
+        "type": "do_ALayout",
+        "views": [
+            {
+                "id": "do_alayout_2",
+                "x": "-1",
+                "y": "-1",
+                "width": "711",
+                "height": "100",
+                "bgColor": "64B1FFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "do_label_33",
+                        "x": "200",
+                        "y": "21",
+                        "width": "300",
+                        "height": "54",
+                        "type": "do_Label",
+                        "fontColor": "FFFFFFFF",
+                        "fontSize": "33",
+                        "maxLines": "1",
+                        "text": "do_External",
+                        "textAlign": "center"
+                    },
+                    {
+                        "id": "action_back",
+                        "x": "2",
+                        "y": "3",
+                        "width": "103",
+                        "height": "92",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_imageview_66",
+                                "x": "38",
+                                "y": "25",
+                                "width": "19",
+                                "height": "35",
+                                "type": "do_ImageView",
+                                "source": "source://image/topbar@back.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "y": "110",
+                "width": "700",
+                "height": "1135",
+                "bgColor": "FFFFFFFF",
+                "type": "do_ALayout",
+                "views": [
+                    {
+                        "id": "openapp",
+                        "y": "2",
+                        "width": "700",
+                        "height": "110",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "x": "80",
+                                "y": "10",
+                                "width": "585",
+                                "bgColor": "FFFFFFFF",
+                                "type": "do_Label",
+                                "fontSize": "25",
+                                "text": "openApp启动微信应用"
+                            },
+                            {
+                                "x": "9",
+                                "y": "29",
+                                "width": "40",
+                                "height": "40",
+                                "type": "do_ImageView",
+                                "source": "source://image/external_img/app1.png"
+                            },
+                            {
+                                "y": "105",
+                                "width": "700",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "openurl",
+                        "y": "110",
+                        "width": "700",
+                        "height": "110",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_label_44",
+                                "x": "80",
+                                "y": "10",
+                                "width": "585",
+                                "bgColor": "FFFFFFFF",
+                                "type": "do_Label",
+                                "fontSize": "25",
+                                "text": "openUrl启动默认浏览器"
+                            },
+                            {
+                                "id": "do_alayout_55",
+                                "y": "105",
+                                "width": "700",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            },
+                            {
+                                "id": "do_imageview_55",
+                                "y": "26",
+                                "width": "50",
+                                "height": "50",
+                                "type": "do_ImageView",
+                                "source": "source://image/external_img/url.png"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "opendial",
+                        "y": "220",
+                        "width": "700",
+                        "height": "110",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_label_66",
+                                "x": "80",
+                                "y": "10",
+                                "width": "585",
+                                "bgColor": "FFFFFFFF",
+                                "type": "do_Label",
+                                "fontSize": "25",
+                                "text": "openDial打开拨号界面"
+                            },
+                            {
+                                "id": "do_alayout_77",
+                                "y": "105",
+                                "width": "700",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            },
+                            {
+                                "id": "do_imageview_44",
+                                "y": "22",
+                                "width": "50",
+                                "height": "50",
+                                "type": "do_ImageView",
+                                "source": "source://image/external_img/dial.png"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "opencontact",
+                        "y": "330",
+                        "width": "700",
+                        "height": "110",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "lb",
+                                "x": "80",
+                                "y": "10",
+                                "width": "585",
+                                "bgColor": "FFFFFFFF",
+                                "type": "do_Label",
+                                "fontSize": "25",
+                                "text": "openContact打开系统通讯录界面"
+                            },
+                            {
+                                "id": "do_alayout_88",
+                                "y": "105",
+                                "width": "700",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            },
+                            {
+                                "id": "do_imageview_33",
+                                "x": "7",
+                                "y": "29",
+                                "width": "40",
+                                "height": "40",
+                                "type": "do_ImageView",
+                                "source": "source://image/external_img/lxr.png"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "openmail",
+                        "y": "440",
+                        "width": "700",
+                        "height": "110",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "do_label_99",
+                                "x": "80",
+                                "y": "10",
+                                "width": "585",
+                                "bgColor": "FFFFFFFF",
+                                "type": "do_Label",
+                                "fontSize": "25",
+                                "text": "openMail打开发送邮件界面"
+                            },
+                            {
+                                "id": "do_alayout_10",
+                                "y": "105",
+                                "width": "700",
+                                "height": "1",
+                                "bgColor": "D8D8D8FF",
+                                "type": "do_ALayout"
+                            },
+                            {
+                                "id": "do_imageview_2",
+                                "x": "9",
+                                "y": "26",
+                                "width": "40",
+                                "height": "40",
+                                "type": "do_ImageView",
+                                "source": "source://image/external_img/mail.png"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "opensms",
+                        "y": "550",
+                        "width": "700",
+                        "height": "110",
+                        "type": "do_ALayout",
+                        "views": [
+                            {
+                                "id": "o",
+                                "x": "80",
+                                "y": "10",
+                                "width": "585",
+                                "bgColor": "FFFFFFFF",
+                                "type": "do_Label",
+                                "fontSize": "25",
+                                "text": "openSMS打开发送短信界面"
+                            },
+                            {
+                                "id": "do_imageview_1",
+                                "x": "11",
+                                "y": "29",
+                                "width": "40",
+                                "height": "40",
+                                "type": "do_ImageView",
+                                "source": "source://image/external_img/sms.png"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "do_alayout_12",
+                        "y": "656",
+                        "width": "700",
+                        "height": "1",
+                        "bgColor": "D8D8D8FF",
+                        "type": "do_ALayout"
+                    }
+                ]
+            }
+        ]
+    }
+}
